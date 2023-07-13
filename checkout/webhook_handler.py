@@ -29,11 +29,16 @@ class StripeWH_Handler:
         bag = intent.metadata.bag
         save_info = intent.metadata.save_info
 
-        billing_details = intent.charges.data[0].billing_details
-        shipping_details = intent.shipping
-        grand_total = round(intent.charges.data[0].amount / 100, 2)
+        # Get the Charge object 
+        stripe_charge = stripe.Charge.retrieve(
+        intent.latest_charge
+)
 
-        # Clean data in the shipping details
+        billing_details = stripe_charge.billing_details # updated
+        shipping_details = intent.shipping
+        grand_total = round(stripe_charge.amount / 100, 2) # updated
+
+    # Clean data in the shipping details
         for field, value in shipping_details.address.items():
             if value == "":
                 shipping_details.address[field] = None
@@ -115,4 +120,4 @@ class StripeWH_Handler:
         """
         return HttpResponse(
             content=f'Webhook received: {event["type"]}',
-            status=200)
+            status=200)       
