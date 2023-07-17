@@ -1,1 +1,1 @@
-web: gunicorn freshfragrancehe.wsgi:application
+web: gunicorn freshfragrance.wsgi:application
