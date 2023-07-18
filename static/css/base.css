@@ -324,7 +324,7 @@ input[name='q']::placeholder {
     margin: 40px 0;
     font-size: 28px;
     background: #2ecc71;
-    color: #fff;
+    color: #080808;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -409,5 +409,24 @@ input[name='q']::placeholder {
 
     .increment-qty, .decrement-qty {
         padding: .25rem .5rem !important;
+    }
+}
+
+@media (max-width: 770px) {
+    .main h2 {
+        font-size: 50px;
+    }
+    .text p {
+        font-size: 20px;
+    }
+    .text span {
+        font-size: 15px;
+    }
+    .text button a {
+        font-size: 10px;
+    }
+    .masthead-text {
+        border-radius: 10px 10px 10px 10px;
+        width: 98%;
     }
 }
