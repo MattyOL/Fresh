@@ -18,6 +18,14 @@ body {
     height: 1.5rem;
     width: 1.5rem;
 }
+.card-img, .card-img-top {
+    display: block;
+    width: 100%;
+    height: 250px;
+
+    object-fit: cover;
+    image-resolution: from-image;
+}
 
 .logo-font {
     text-transform: uppercase;

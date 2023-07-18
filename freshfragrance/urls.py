@@ -30,4 +30,4 @@ urlpatterns = [
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 handler404 = 'freshfragrance.views.handler404'
-handler500 = 'freshfragrance.views.handler404'
+
