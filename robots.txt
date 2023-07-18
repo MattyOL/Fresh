@@ -1,0 +1,23 @@
+User-agent: *
+Disallow: /checkout/
+Disallow: /cart/
+Disallow: /account/
+Disallow: /wishlist/
+Disallow: /search/
+
+User-agent: Googlebot
+Disallow: /checkout/
+Disallow: /cart/
+Disallow: /account/
+Disallow: /wishlist/
+Disallow: /search/
+
+User-agent: Bingbot
+Disallow: /checkout/
+Disallow: /cart/
+Disallow: /account/
+Disallow: /wishlist/
+Disallow: /search/
+
+Sitemap: https://fresh-p5-3dd3ff854c84.herokuapp.com/
+
