@@ -34,8 +34,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
-# SECURITY WARNING: don't run with debug turned on in production!  #'DEVELOPMENT' in os.environ
-DEBUG = True  
+# SECURITY WARNING: don't run with debug turned on in production!  #
+DEBUG = 'DEVELOPMENT' in os.environ'
 
 ALLOWED_HOSTS = ['8000-mattyol-fresh-wox1tw2jfil.ws-eu101.gitpod.io', 'localhost', 'fresh-p5-3dd3ff854c84.herokuapp.com' ]
 
@@ -132,21 +132,21 @@ WSGI_APPLICATION = 'freshfragrance.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-if 'DATABASE_URL' in os.environ:
-   DATABASES = {
-        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
-   }
-else:
-    DATABASES = {
-       'default': {
-           'ENGINE': 'django.db.backends.sqlite3',
-           'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-       }
-   }
+#if 'DATABASE_URL' in os.environ:
+#   DATABASES = {
+#        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+#   }
+#else:
+ #   DATABASES = {
+ #      'default': {
+#           'ENGINE': 'django.db.backends.sqlite3',
+#           'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#       }
+ #  }
 
-#DATABASES = {
-#    'default': dj_database_url.parse('postgres://omoswitc:n-ntZfPcyAyYeVGJdNKUOWtr0d0BcoWa@horton.db.elephantsql.com/omoswitc')
-#}
+DATABASES = {
+    'default': dj_database_url.parse('postgres://omoswitc:n-ntZfPcyAyYeVGJdNKUOWtr0d0BcoWa@horton.db.elephantsql.com/omoswitc')
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
