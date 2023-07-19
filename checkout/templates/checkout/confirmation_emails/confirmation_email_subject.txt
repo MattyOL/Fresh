@@ -1,1 +1,1 @@
-Fresh | Vintage Apparel Confirmation for Order Number {{ order.order_number }}
+Fresh|Vintage Confirmation for Order Number {{ order.order_number }}
