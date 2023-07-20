@@ -201,7 +201,7 @@ input[name='q']::placeholder {
 .overlay {
     background-color: antiquewhite;
 }
-}
+
 
 .card {
     border: none;
@@ -315,8 +315,22 @@ input[name='q']::placeholder {
     border: none;
 }
 
+.card-body {
+    background-color: black;
+    box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.9);
+}
 
-
+#shopbtn {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: #2ecc71;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+}
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
