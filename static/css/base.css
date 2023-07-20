@@ -187,6 +187,16 @@ input[name='q']::placeholder {
     overflow-y: auto;
 }
 
+.masthead {
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.masthead-image img {
+    width: 100%;
+}
 
 /* -------------------------------- Media Queries */
 
