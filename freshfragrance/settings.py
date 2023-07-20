@@ -60,6 +60,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'profiles',
     'storages',
+    'newsletter',
 ]
 
 MIDDLEWARE = [
@@ -144,9 +145,9 @@ else:
     }
   }
 
-# DATABASES = {
- #    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
-# }
+#DATABASES = {
+#    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+#}
     
 
 
