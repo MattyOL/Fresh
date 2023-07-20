@@ -41,7 +41,7 @@ body {
 }
 
 .shop-now-button {
-    background: black;
+    background: rgb(75, 197, 75);
     color: white;
     min-width: 260px;
 }
@@ -75,7 +75,7 @@ body {
 }
 
 .text-black {
-    color: #57a857 !important;
+    color: white !important;
 }
 
 .border-black {
