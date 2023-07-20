@@ -198,6 +198,10 @@ input[name='q']::placeholder {
     width: 100%;
 }
 
+.overlay {
+    background-color: antiquewhite;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
