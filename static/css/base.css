@@ -331,6 +331,32 @@ input[name='q']::placeholder {
     cursor: pointer;
     transition: .3s;
 }
+
+
+.author {
+    color: white;
+    margin: 4px;
+    text-transform: uppercase;
+}
+
+.masthead {
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.masthead-image img {
+    width: 100%;
+}
+
+.masthead-text {
+    color: var(--off-white);
+}
+
+#mail {
+    color: white;
+}
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -484,6 +510,8 @@ input[name='q']::placeholder {
     animation: shake ease-in-out 3 0.7s;
     animation-delay: 2s;
 }
+
+
 
 @keyframes shake {
     0% {

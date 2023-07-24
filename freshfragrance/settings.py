@@ -34,10 +34,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
-# SECURITY WARNING: don't run with debug turned on in production!  #
-DEBUG = 'DEVELOPMENT' in os.environ
+# SECURITY WARNING: don't run with debug turned on in production!  #'DEVELOPMENT' in os.environ
+DEBUG = True 
 
-ALLOWED_HOSTS = ['8000-mattyol-fresh-wox1tw2jfil.ws-eu101.gitpod.io', 'localhost', 'fresh-p5-3dd3ff854c84.herokuapp.com' ]
+ALLOWED_HOSTS = ['8000-mattyol-fresh-wox1tw2jfil.ws-eu102.gitpod.io', 'localhost', 'fresh-p5-3dd3ff854c84.herokuapp.com' ]
 
 
 # Application definition
