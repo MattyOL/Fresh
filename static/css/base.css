@@ -30,6 +30,7 @@ body {
 
 .logo-font {
     text-transform: uppercase;
+    color: black;
 }
 
 .main-logo-link {
@@ -73,9 +74,23 @@ body {
     background: #222;
     color: white;
 }
+.mb-0, .my-0 {
+    color: black;
+}
+
+b, strong {
+    color: rgb(182, 148, 148);
+}
 
 .text-black {
     color: white !important;
+}
+.text-white {
+    color:#000;
+}
+
+.black {
+    color: black;
 }
 
 .border-black {
@@ -358,11 +373,9 @@ input[name='q']::placeholder {
     color: white;
 }
 
-/* Make GitHub link permanently yellow */
-footer a {
-    color: var(--main-yellow);
+.card-footer:last-child {
+    box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.9);
 }
-
 /* Make all a elements in footer yellow on hover */
 footer a:hover {
     color: var(--main-yellow) !important;
@@ -462,7 +475,7 @@ a:hover {
 
 }
 .contact-form-txt::placeholder {
-    color:#17a2b8
+    color: black;
 }
 
 .contact-form-textarea {
@@ -486,6 +499,10 @@ a:hover {
     border: none;
     outline: none;
     border-radius: 50px;
+}
+
+.btn-send {
+    background-color: white;
 }
 
 

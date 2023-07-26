@@ -42,7 +42,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-6 order-md-first">
-                        <p class="text-white mt-3 text-center text-md-left">
+                        <p class="text-dark mt-3 text-center text-md-left">
                             {% if search_term or current_categories or current_sorting != 'None_None' %}
                                 <span class="small"><a href="{% url 'products' %}">Products Home</a> | </span>
                             {% endif %}
@@ -66,7 +66,7 @@
                                 <div class="card-body pb-0">
                                     <p class="mb-0">{{ product.name }}</p>
                                 </div>
-                                <div class="card-footer bg-black pt-0 border-0 text-left">
+                                <div class="card-footer bg-dark pt-0 border-0 text-left">
                                     <div class="row">
                                         <div class="col">
                                             <p class="lead mb-0 text-left font-weight-bold">€{{ product.price }}</p>
