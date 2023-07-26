@@ -1,26 +1,23 @@
-{% extends "base.html" %} {% load static %} {% block content %}
+{% extends "base.html" %} 
+{% load static %} 
+{% block content %}
 <!-- Contact page -->
-<form method="post" class="was-validated">
-    {% csrf_token %}
-    <div class="contact-container">
-
-        <div class="contact-box">
-            <!-- contact Img src -->
-            
-             <!-- Security token -->
-             {% csrf_token %}
-            <div class="right">
-                <!-- contact form -->
-                <h2>Contact us</h2>
-                <input type="text" class="field" placeholder="Your Name" name="name" required>
-                <input type="text" class="field" placeholder="Your Email" name="email" required>
-                <input type="text" class="field" placeholder="Phone" name="phone">
-                <textarea placeholder="Message" class="field" name="message" required></textarea>
-                <button class="btn">Send</button>
-            </div>
-        </div>
+<div class="contact-in">
+    <div class="contact-map" >
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.520861849787!2d-6.265479523388204!3d53.351832674313066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e814ba42539%3A0x3eebd04f7462c124!2sParnell%20St%2C%20Dublin%2C%20Ireland!5e0!3m2!1sen!2ses!4v1690377464672!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-</form>
+    <div class="contact-form">
+        <h1>Contact Us</h1>
+        <form>
+            {% csrf_token %}
+            <input type="text" placeholder="Name" class="contact-form-txt"/> 
+            <input type="text" placeholder="Email" class="contact-form-txt"/>
+            <textarea placeholder="Message" class="contact-form-textarea"></textarea>
+            <button class="btn">Send</button>
+        </form>
 
+    </div>
+   
+</div>
 
 {% endblock %}
