@@ -357,6 +357,70 @@ input[name='q']::placeholder {
 #mail {
     color: white;
 }
+
+/* Make GitHub link permanently yellow */
+footer a {
+    color: var(--main-yellow);
+}
+
+/* Make all a elements in footer yellow on hover */
+footer a:hover {
+    color: var(--main-yellow) !important;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--main-yellow);
+}
+
+.nav-link:hover {
+    color: var(--main-yellow) !important;
+}
+
+.text-yellow {
+    color: var(--main-yellow) !important;
+}
+
+.text-pink {
+    color: var(--main-pink) !important;
+}
+
+.text-teal {
+    color: var(--main-teal) !important;
+}
+
+.bg-dark {
+    background-color: var(--main-dark) !important;
+}
+
+.containerone {
+    display: flex;
+    flex-direction: row;
+    
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+    
+    
+}
+
+.containertwo {
+    width: 60%;
+}
+
+#mc_embed_signup{
+    background:#814343;
+    clear:left; 
+    font:14px Helvetica,Arial,sans-serif; 
+    width: 600px;
+}
+
+
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */

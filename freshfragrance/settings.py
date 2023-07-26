@@ -10,12 +10,10 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 import os
-import os
 import dj_database_url
 
 from pathlib import Path
 
-import os
 
 
 if os.path.exists("env.py"):
@@ -61,8 +59,8 @@ INSTALLED_APPS = [
     'profiles',
     'storages',
     'blog',
-    'newsletter',
     'django_summernote',
+    'contact',
 ]
 
 MIDDLEWARE = [
@@ -237,7 +235,7 @@ STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 
 if 'DEVELOPMENT' in os.environ:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-    DEFAULT_FROM_EMAIL =  'Fresh|Vintage@example.com'
+    DEFAULT_FROM_EMAIL =  'FreshVintage@example.com'
 else:
     EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
     EMAIL_USE_TLS = True
