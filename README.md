@@ -328,15 +328,40 @@ To obtain your own Postgres Database, sign-up with your GitHub account, then fol
 * Select the Region and Data Center closest to you.
 * Once created, click on the new database name, where you can view the database URL and Password.
 
-# Cloudinary API
-This project uses the Cloudinary API to store media assets online, due to the fact that Heroku doesn't persist this type of data.
+# ElephantSQL Database
+* This project uses ElephantSQL for the PostgreSQL Database.
 
-To obtain your own Cloudinary API key, create an account and log in.
+To acquire your own Postgres Database, first, sign up using your GitHub account, and then follow these steps:
 
-* For Primary interest, you can choose Programmable Media for image and video API.
-* Optional: edit your assigned cloud name to something more memorable.
-* On your Cloudinary Dashboard, you can copy your API Environment Variable.
-* Be sure to remove the CLOUDINARY_URL= as part of the API value; this is the key.
+1.  Click Create New Instance to start a new database.
+2.  Provide a name ( Fresh Vinatge ).
+3.  Select the Tiny Turtle (Free) plan.
+4.  You can leave the Tags blank.
+5.  Select the Region and Data Center closest to you.
+6.  Once created, click on the new database name, where you can view the database URL and Password.
+
+# Amazon AWS
+
+This project utilizes AWS to store media and static files in the cloud since Heroku does not support persistent storage for this type of data.
+
+After creating your AWS account and logging in, proceed with the following steps to establish the connection for your project. Ensure that you are on the AWS Management Console page:
+
+1. Create an AWS account and log in.
+2. Access the AWS Management Console page.
+3. Follow this series of steps to establish the connection for your project.
+
+## SE Bucket
+
+1. Search for S3.
+2. Click on "Create Bucket" to start the process of creating a new bucket.
+3. From Object Ownership, make sure to have ACLs enabled, and Bucket owner preferred selected.
+4. Uncheck Block all public access, and acknowledge that the bucket will be public (required for it to work on Heroku).
+5. om the Properties tab, turn on static website hosting, and type index.html and error.html in their respective fields, then click Save.
+6. Give your new bucket a name that matches your Heroku app name. For example, if your Heroku app is called "my-awesome-app," you can name your bucket "my-awesome-app" as well.
+7. From the Permissions tab, paste in the following CORS configuration:
+<img width="431" alt="Screen Shot 2023-07-31 at 16 56 30" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/c730bb8c-ae33-4e40-8235-2753cacf1b5c">
+
+
 
 # Heroku Deployment
 Heroku, a platform as a service (PaaS), was employed for this project. This cloud-based platform enables developers to build, run, and manage applications entirely on the cloud.
