@@ -21,6 +21,7 @@ I wanted to keep the colour scheme quite simpley so its easy for the user to nav
 # Wireframe's
 
 To have a better plan for developing my website, I utilized Justinmind.com to produce wireframes that serve as a guide on how I want the website to be created
+
 ## Home-Page 
 
 
@@ -44,8 +45,6 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
  ## Contact-Page
 
 
-
-## Add-Recipe-Page
 
 
 
@@ -197,6 +196,11 @@ For a website that sells vintage accessories, furniture, and clothing, you'll wa
 20. Vintage furniture pieces
 21. Retro handbags
 22. Classic wardrobe
+23. Thift shops
+24. Digging
+25. Vintage clothing
+26. Fresh vintage
+
 
 
 These keywords cover a wide range of products and will help potential customers find your website when searching for vintage accessories, furniture, and clothing. Use these keywords strategically in your website's content, product descriptions, meta tags, and blog posts to improve your SEO and attract the right audience.
