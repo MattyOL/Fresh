@@ -6,7 +6,7 @@
 
 
 
-[Live Link to Fresh|vintage]()
+[Live Link to Fresh|vintage](https://fresh-p5-3dd3ff854c84.herokuapp.com/)
 
 # UX
 I wanted to keep the colour scheme quite simpley so its easy for the user to navigate and not get distracted while on the website The colour i used is 
@@ -363,7 +363,7 @@ After creating your AWS account and logging in, proceed with the following steps
 
 
 
-# Heroku Deployment
+
 Heroku, a platform as a service (PaaS), was employed for this project. This cloud-based platform enables developers to build, run, and manage applications entirely on the cloud.
 
 Deployment steps are as follows, after account setup:
