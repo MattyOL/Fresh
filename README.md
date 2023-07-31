@@ -143,6 +143,20 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
 ## Future Features's
 
 ## Search Engine Optimization 
+
+ #  Facebook business page
+  
+<img width="1428" alt="Screen Shot 2023-07-31 at 12 14 25" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/83102785-d862-46be-895c-fe7e941d57c6">
+
+<img width="1440" alt="Screen Shot 2023-07-31 at 12 14 36" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/de711fce-0fea-4b46-9d82-d95691f2f7e4">
+
+<img width="608" alt="Screen Shot 2023-07-31 at 12 16 37" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/26c88b30-0d33-4d50-b8d6-699185bc5c9a">
+
+<img width="621" alt="Screen Shot 2023-07-31 at 12 16 32" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/277c61a7-79f1-46a5-aa24-a3231b9d2144">
+
+<img width="597" alt="Screen Shot 2023-07-31 at 12 16 24" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/79f0a1db-deba-410b-92d4-58bddd604dd9">
+
+ 
  # Key-phrases 
 When targeting vintage clothing and furniture stores, it's essential to use keyword phrases that reflect the specific products and services you offer. Here are some keyword phrases that can help attract the right audience to your vintage clothing and furniture store:
 
