@@ -29,3 +29,13 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Discount(models.Model):
+    name = models.CharField(max_length=100)
+    value = models.DecimalField(max_digits=6, decimal_places=2)
+    dcode = models.CharField(max_length=8)
+    expirey_date = models.DateField(auto_now=False)
+
+    def __str__(self):
+        return self.name

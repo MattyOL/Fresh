@@ -1,7 +1,7 @@
 from decimal import Decimal
 from django.conf import settings
 from django.shortcuts import get_object_or_404
-from products.models import Product
+from products.models import Product, Discount 
 
 def bag_contents(request):
 
@@ -9,6 +9,7 @@ def bag_contents(request):
     total = 0
     product_count = 0
     bag = request.session.get('bag', {})
+    
 
     for item_id, item_data in bag.items():
         if isinstance(item_data, int):
@@ -40,6 +41,7 @@ def bag_contents(request):
         free_delivery_delta = 0
     
     grand_total = delivery + total
+    #discount_total = grand_total - ((discount.value / grand_total) * 100)
     
     context = {
         'bag_items': bag_items,
@@ -49,6 +51,7 @@ def bag_contents(request):
         'free_delivery_delta': free_delivery_delta,
         'free_delivery_threshold': settings.FREE_DELIVERY_THRESHOLD,
         'grand_total': grand_total,
+        
     }
 
     return context
