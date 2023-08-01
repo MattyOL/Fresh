@@ -8,7 +8,6 @@ def contact(request):
         contact = Contact()
         name = request.POST.get('name')
         email = request.POST.get('email')
-        phone = request.POST.get('phone')
         message = request.POST.get('message')
         contact.name = name
         contact.email = email

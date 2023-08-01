@@ -1,0 +1,27 @@
+
+    {% extends "base.html" %}
+{% load static %}
+{% load bag_tools %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+<h1>Available Items</h1>
+    <ul>
+    {% for item in items %}
+        <li>{{ item.name }} - {{ item.price }} (<a href="{% url 'add_to_wishlist' item.id %}">Add to Wishlist</a>)</li>
+    {% endfor %}
+    </ul>
+
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+
+{% endblock %}
