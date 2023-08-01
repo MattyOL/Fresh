@@ -360,6 +360,51 @@ After creating your AWS account and logging in, proceed with the following steps
 6. Give your new bucket a name that matches your Heroku app name. For example, if your Heroku app is called "my-awesome-app," you can name your bucket "my-awesome-app" as well.
 7. From the Permissions tab, paste in the following CORS configuration:
 <img width="431" alt="Screen Shot 2023-07-31 at 16 56 30" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/c730bb8c-ae33-4e40-8235-2753cacf1b5c">
+1. Copy your ARN string.
+
+2. From the Bucket Policy tab, select the Policy Generator link, and use the following steps:
+
+3. Policy Type: S3 Bucket Policy
+
+4. Effect: Allow
+
+5. Principal: *
+
+6. Actions: GetObject
+
+7. Amazon Resource Name (ARN): paste-your-ARN-here
+
+9. Click Add Statement
+
+10. Click Generate Policy
+
+11. Copy the entire Policy, and paste it into the Bucket Policy Editor
+
+<img width="688" alt="Screen Shot 2023-08-01 at 13 11 23" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/85326d69-71d2-4607-a362-90be6ff811a2">
+
+1. Before finalizing, append "/*" to the Resource key within the Bucket Policy Editor (as shown above) before clicking on "Save."
+
+2. Click Save.
+
+3. Proceed to the Access Control List (ACL) section, select "Edit," and enable the "List" option for Everyone (public access). Confirm your action by accepting the warning box.
+
+4. If the "Edit" button is disabled, you should navigate to the "Object Ownership" section mentioned earlier and enable ACLs (Access Control Lists) from there. Once ACLs are enabled, you can go back to the Access Control List (ACL) section, and the "Edit" button should now be available for you to make the necessary changes.
+
+# IAM 
+Upon returning to the AWS Services Menu, locate and access IAM (Identity and Access Management). After reaching the IAM page, please follow these steps:
+
+1. Navigate to the "Users" section and click on "Add user" to create a new IAM user.
+2. Specify the desired username for the new IAM user.
+3. Choose the access type - "Programmatic access" (for API and CLI access) and/or "AWS Management Console access" (for web-based console access).
+4. Set permissions for the IAM user. You can either add the user to an existing IAM group with predefined policies or attach policies directly to the user.
+5. Optionally, configure tags for the IAM user for better organization and identification.
+6. Review the user's settings and permissions to ensure they are accurate.
+7. Click on "Create user" to finalize the creation of the new IAM user.
+8. Remember to securely save the access credentials (e.g., Access Key ID and Secret Access Key) if you selected "Programmatic access" to avoid any accidental exposure.
+9. From the JSON tab, select the Import Managed Policy link.
+ ** Search for S3, select the AmazonS3FullAccess policy, and then Import.
+
+ ** You'll need your ARN from the S3 Bucket copied again, which is pasted into "Resources" key on the Policy.
 
 
 
