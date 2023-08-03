@@ -329,7 +329,7 @@ I used this guide throughout my project for solving terminal issues.
 
 
 # ElephantSQl DataBase
-The live Link to deployment can be found on [Live link Heroku](https://project-4-fsf.herokuapp.com/)
+The live Link to deployment can be found on [Live link Heroku]()
 
 This project uses [ElephantSQL](https://www.elephantsql.com/) for the PostgreSQL Database.
 
