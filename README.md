@@ -235,6 +235,16 @@ For a website that sells vintage accessories, furniture, and clothing
 26. Fresh vintage
 
 
+## Ecommerce Business Model (B2C)
+This e-commerce website operates on a simple Business-to-Customer (B2C) model, catering to individual customers. The focus is on individual transactions, and there are no subscription services involved. While still in its early development stages, the site already includes features like a newsletter and links for social media marketing.
+
+The incorporation of social media is seen as an opportunity to build a community around the business and increase site visitor numbers, particularly by leveraging larger platforms like Facebook.
+
+The newsletter serves as a valuable communication tool, allowing the business to regularly engage with site users. It can be used to share information about special offers, discountcodes, new inventory, updates to business hours, notifications of events, and other relevant updates.
+
+Overall, this B2C e-commerce business is laying the groundwork for growth and customer engagement through strategic use of social media and a newsletter to keep users informed and connected with the brand.
+
+
 
 
 ## Agile Development Process
