@@ -313,10 +313,15 @@ I used this guide throughout my project for solving terminal issues.
 
 12. [Heroku](https://dashboard.heroku.com/apps) used for hosting the deployed back-end site.
 
-13.[Cloudinary](https://cloudinary.com/) used for online static file storage.
+13. sqlite
 
 14. [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)[diff checker](https://www.diffchecker.com/) used to check for typos in my README and TESTING files.# Deployment 
 15. Jquery
+
+16. javascript
+
+
+18. 
 
 # ElephantSQl DataBase
 The live Link to deployment can be found on [Live link Heroku](https://project-4-fsf.herokuapp.com/)
