@@ -179,8 +179,7 @@ When targeting vintage clothing and furniture stores, it's essential to use keyw
 17. Timeless antique furniture
 18. Vintage clothing shop online
 19. Retro furniture for home
-20. Vintage clothing and decor
-21.Vintage clothing for men/women
+20. Vintage clothing and decor 
 22. Vintage furniture warehouse
 23. Retro furniture styles
 24. Vintage clothing sale
@@ -313,15 +312,21 @@ I used this guide throughout my project for solving terminal issues.
 
 12. [Heroku](https://dashboard.heroku.com/apps) used for hosting the deployed back-end site.
 
-13. sqlite
+13. [Pillow](https://pypi.org/) Used for handling images 
 
-14. [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)[diff checker](https://www.diffchecker.com/) used to check for typos in my README and TESTING files.# Deployment 
-15. Jquery
+14. [Django summernote](https://github.com/summernote/django-summernote) used for the body field for blog posts.
 
-16. javascript
+15. [Stripe](https://stripe.com/en-gb-es)  used for online secure payments of ecommerce products/services.
+
+16. [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)[diff checker](https://www.diffchecker.com/) used to check for typos in my README and TESTING files.# Deployment
+ 
+
+18. [Javascript](https://www.javascript.com/)  used for user interaction on the site.
+
+19. [AWS](https://aws.amazon.com/) used for online static file storage.
 
 
-18. 
+
 
 # ElephantSQl DataBase
 The live Link to deployment can be found on [Live link Heroku](https://project-4-fsf.herokuapp.com/)
