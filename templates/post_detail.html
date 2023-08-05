@@ -28,7 +28,7 @@
                         {% if "placeholder" in post.featured_image.url %}
                         <img src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg" width="100%">
                         {% else %}
-                        <img src=" {{ post.image.url }}" width="100%">
+                        <img class="postdetailimg" src=" {{ post.image.url }}" width="100%">
                         {% endif %}
                     </div>
                 </div>
@@ -42,7 +42,16 @@
                         <!-- The post content goes inside the card-text. -->
                         <!-- Use the | safe filter inside the template tags -->
                         <p class="card-text ">
-                            {{ post.content | safe }}
+                            
+                            <div class="recipecontainer">
+                                 
+                                    <div class="ingredientscontainer">
+                                        
+                                        <p>{{ post.content | safe }}</p>
+                                    </div>
+                        
+                                    <p class="methodp">{{ post.method | safe }}</p>
+                            </div>
                         </p>
                         <div class="row">
         

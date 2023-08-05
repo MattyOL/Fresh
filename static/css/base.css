@@ -50,6 +50,8 @@ body {
     box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.9);
     object-fit: cover;
     image-resolution: from-image;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .logo-font {
@@ -62,6 +64,15 @@ body {
 
 .productImgHeight {
     height: 420px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+#productinfo {
+    background-color: black;
+    box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.9);
 }
 
 .shop-now-button {
@@ -249,6 +260,8 @@ input[name='q']::placeholder {
 
 .card-footer:last-child {
     box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.9);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 /* Make all a elements in footer yellow on hover */
 footer a:hover {
@@ -411,7 +424,13 @@ h6 strong {
 
 }
 
+#blog-link {
+    padding-left: 45px;
+}
 
+.newslettertitle {
+    font-size: 20px;
+}
 
 /* -------------------------------- Media Queries */
 
@@ -588,9 +607,6 @@ h6 strong {
     border-radius: 15px;
 }
 
-.card-img-top {
-    border-radius: 15px;
-}
 .image-flash {
     position: absolute;
     bottom: 5%;
@@ -609,6 +625,27 @@ h6 strong {
     
 }
 
+.blogcard {
+    background-color: #000;
+    box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.9);
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.blogcard a {
+    color: white;
+}
+.blogcard h2 {
+    color: white;
+}
+.blogcard p {
+    color: white;
+}
+
+
+
+
 .author {
     color: white;
     margin: 4px;
@@ -626,7 +663,7 @@ h6 strong {
 
 .masthead-text {
     background-color: black;
-    color: antiquewhite;
+    color: white;
     position: relative;
 }
 
@@ -666,7 +703,7 @@ h6 strong {
 
 .post-subtitle {
     margin-left: 5%;
-    color: lightgray;
+    color: white;
 }
 
 .btn-signup {
@@ -704,6 +741,39 @@ h6 strong {
     border: none;
 }
 
+.postdetailimg {
+    border-radius: 10px;
+}
+
+.recipecontainer {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 5px 5px 5px 5px;
+    background-color: white;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.containerone {
+    width: 60%;
+    margin: 5px 5px 5px 5px;
+    
+
+}
+
+.containerone img {
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+}
+
+.ingredientscontainer {
+    
+    color: black;
+    padding: 50px;
+}
 
 @keyframes shake {
     0% {
