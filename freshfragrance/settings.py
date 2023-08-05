@@ -62,7 +62,15 @@ INSTALLED_APPS = [
     'django_summernote',
     'contact',
     'wishlist',
+
+
 ]
+
+SITE_ID=1
+
+LOGIN_REDIRECT_URL = '/'
+
+LOGOUT_REDIRECT_URL = '/'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -77,6 +85,8 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'freshfragrance.urls'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+ACCOUNT_EMAIL_VERIFICATION = 'none'
 
 
 TEMPLATES = [
@@ -245,3 +255,14 @@ else:
     EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
     EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
     DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
+
+
+MAILCHIMP_API_KEY = os.environ.get('MAILCHIMP_API_KEY', 'default_value_if_not_present')
+
+MAILCHIMP_LIST_ID = os.environ.get('MAILCHIMP_LIST_ID', 'default_value_if_not_present')
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+
+EMAIL_BACKEND = 'bag.utils.mailchimp_email_backend.MailchimpEmailBackend'
+

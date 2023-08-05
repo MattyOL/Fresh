@@ -26,6 +26,13 @@ body {
 #home-text {
     padding-top: 140px;
 }
+.home-container {
+    margin-top: 300px;
+}
+
+#facebook {
+    width: 41px;
+}
 
 /* from Bulma */
 .icon {
@@ -215,138 +222,12 @@ input[name='q']::placeholder {
     overflow-y: auto;
 }
 
-.masthead {
-    margin-top: 10px;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-}
-
-.masthead-image img {
-    width: 100%;
-}
-
 .overlay {
     background-color: antiquewhite;
 }
 
 
-.card {
-    border: none;
-    background-color: transparent;
-}
 
-.image-container {
-    position: relative;
-}
-
-.image-flash {
-    position: absolute;
-    bottom: 5%;
-    min-width: 30%;
-    left: -2px;
-    background-color: #23BBBB;
-}
-
-.author {
-    color: white;
-    margin: 4px;
-    text-transform: uppercase;
-}
-
-.masthead {
-    margin-top: 10px;
-    overflow: hidden;
-    position: relative;
-    display: inline-block;
-    height: 33vh;
-    width: 100%;
-}
-
-.masthead-text {
-    background-color: #445261;
-    color: white;
-    position: relative;
-}
-
-.masthead-image {
-    position: relative;
-    overflow: hidden;
-}
-
-.masthead-image:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 90%;
-    height: 100%;
-    width: 150%;
-    background: #445261;
-    -webkit-transform: skew(15deg);
-    -moz-transform: skew(15deg);
-    transform: skew(15deg);
-    z-index: 100;
-}
-
-.post-link {
-    text-decoration: none;
-    color: #445261;
-}
-
-.post-link:hover,
-.page-link {
-    color: #E84610;
-}
-
-.post-title {
-    margin-top: 20%;
-    margin-left: 5%;
-}
-
-.post-subtitle {
-    margin-left: 5%;
-    color: lightgray;
-}
-
-.btn-signup {
-    background-color: #23BBBB;
-    color: #fff;
-}
-
-.btn-signup:hover,
-.btn-signup:active {
-    background-color: #fff;
-    color: #23BBBB;
-}
-
-.link {
-    color: #23BBBB;
-    text-decoration: none;
-}
-
-.link:hover,
-.link:active {
-    color: #445261;
-    text-decoration: underline;
-}
-
-.btn-like {
-    color: #E84610;
-    border: none;
-    background: transparent;
-}
-
-.btn-like:hover,
-.btn-like:active {
-    color: #E84610;
-    background: transparent;
-    border: none;
-}
-
-.card-body {
-    background-color: black;
-    box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.9);
-}
 
 #shopbtn {
     width: 100%;
@@ -361,26 +242,6 @@ input[name='q']::placeholder {
 }
 
 
-.author {
-    color: white;
-    margin: 4px;
-    text-transform: uppercase;
-}
-
-.masthead {
-    margin-top: 10px;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-}
-
-.masthead-image img {
-    width: 100%;
-}
-
-.masthead-text {
-    color: var(--off-white);
-}
 
 #mail {
     color: white;
@@ -545,6 +406,11 @@ h6 strong {
     color: #e87816;
 }
 
+.blogimg {
+    border-radius: 10px;
+
+}
+
 
 
 /* -------------------------------- Media Queries */
@@ -704,6 +570,138 @@ h6 strong {
 
 .gap li {
     padding: 5px;
+}
+/*Blog post*/
+
+ .header-container {
+    margin-top: 100px;
+    background-color: antiquewhite;
+}
+
+.card {
+    border: none;
+    background-color: transparent;
+}
+
+.image-container {
+    position: relative;
+    border-radius: 15px;
+}
+
+.card-img-top {
+    border-radius: 15px;
+}
+.image-flash {
+    position: absolute;
+    bottom: 5%;
+    min-width: 30%;
+    left: -2px;
+    background-color: #23BBBB;
+}
+.containerdetail {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto; 
+    background-color: black;
+    border-radius: 20px;
+    
+}
+
+.author {
+    color: white;
+    margin: 4px;
+    text-transform: uppercase;
+}
+
+.masthead {
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    height: 33vh;
+    width: 100%;
+}
+
+.masthead-text {
+    background-color: black;
+    color: antiquewhite;
+    position: relative;
+}
+
+.masthead-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.masthead-image:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 90%;
+    height: 100%;
+    width: 150%;
+    
+    -webkit-transform: skew(15deg);
+    -moz-transform: skew(15deg);
+    transform: skew(15deg);
+    z-index: 100;
+}
+
+.post-link {
+    text-decoration: none;
+    color: #445261;
+}
+
+.post-link:hover,
+.page-link {
+    color: #E84610;
+}
+
+.post-title {
+    margin-top: 20%;
+    margin-left: 5%;
+}
+
+.post-subtitle {
+    margin-left: 5%;
+    color: lightgray;
+}
+
+.btn-signup {
+    background-color: #23BBBB;
+    color: #fff;
+}
+
+.btn-signup:hover,
+.btn-signup:active {
+    background-color: #fff;
+    color: #23BBBB;
+}
+
+.link {
+    color: #23BBBB;
+    text-decoration: none;
+}
+
+.link:hover,
+.link:active {
+    color: #445261;
+    text-decoration: underline;
+}
+
+.btn-like {
+    color: #E84610;
+    border: none;
+    background: transparent;
+}
+
+.btn-like:hover,
+.btn-like:active {
+    color: #E84610;
+    background: transparent;
+    border: none;
 }
 
 

@@ -1,66 +1,11 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
-    </div>
-{% endblock %}
+
 
 {% block content %}
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <hr>
-                <h2 class="logo-font mb-4 text-yellow">Blog</h2>
-                <h5>Add a Post</h5>
-                <hr>
-            </div>
-        </div>
+{% load i18n %}
+{% load account socialaccount %}
 
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <form method="POST" action="{% url 'add_post' %}" class="form mb-2" enctype="multipart/form-data">
-                    {% csrf_token %}
-                    {% for field in form %}
-                        {% if field.name != 'image' %}
-                            {{ field | as_crispy_field }}
-                        {% else %}
-                            {{ field }}
-                        {% endif %}
-                    {% endfor %}
-                    <div class="text-right">
-                        <a class="btn btn-outline-black rounded-0" href="{% url 'blog' %}">Cancel</a>
-                        <button class="btn btn-black rounded-0" type="submit">Add Post</button>
-                    </div>
-                </form>
-            </div>            
-        </div>
-    </div>
-{% endblock %}
 
-{% block postloadjs %}
-    {{ block.super }}
-    <script>
-        // convert Blog title to slug-format on front-end
-        /* jshint esversion: 11, jquery: true */
-        let title = document.getElementById("id_title");
-        let slug = document.getElementById("id_slug");
-        title?.addEventListener("keyup", convertToSlug);
-        slug?.addEventListener("keyup", convertToSlug);
-
-        function convertToSlug() {
-            slug.value = title.value.toLowerCase()
-                .replace(/ /g, '-')
-                .replace(/[^\w-]+/g, '');
-        }
-
-        // Handle images for post
-        $('#new-image').change(function () {
-            var file = $('#new-image')[0].files[0];
-            $('#filename').text(`Image will be set to: ${file.name}`);
-        });
-    </script>
 {% endblock %}
