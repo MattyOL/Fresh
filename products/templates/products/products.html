@@ -64,7 +64,9 @@
                                 </a>
                                 {% endif %}
                                 <div id="productinfo" class="card-body pb-0">
-                                    <p class="mb-0">{{ product.name }}</p>
+                                    <p id="products_name" class="mb-0">{{ product.name }}</p> 
+                                    <a onclick="myFunction()" id="p1" class="text-warning" href="{% url 'add_to_wishlist' product.id %}"><i class="far fa-star"></i></a>
+                                   
                                 </div>
                                 <div class="card-footer bg-dark pt-0 border-0 text-left">
                                     <div class="row">
@@ -156,4 +158,16 @@
             }
         })
     </script>
+
+<script>
+    function myFunction() {
+        if (document.getElementById("p1").innerHTML == "<i class="far fa-star"></i>"){
+        document.getElementById("p1").innerHTML = "<i class="fas fa-star"></i>";
+        } 
+        else {
+            document.getElementById("p1").innerHTML = "<i class="far fa-star"></i>";
+        }
+    }
+    
+</script>
 {% endblock %}

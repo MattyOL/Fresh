@@ -743,9 +743,11 @@ h6 strong {
 
 .postdetailimg {
     border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
-.recipecontainer {
+.blogcontentcontainer {
     display: flex;
     flex-direction: row-reverse;
     margin: 5px 5px 5px 5px;
@@ -769,7 +771,7 @@ h6 strong {
     border-radius: 40px;
 }
 
-.ingredientscontainer {
+.blogcontainer {
     
     color: black;
     padding: 50px;
@@ -800,6 +802,11 @@ h6 strong {
 
 footer {
     margin-top: 300px;
+}
+
+
+#p1 {
+    float: right;
 }
 
 /* fixed top navbar only on medium and up */

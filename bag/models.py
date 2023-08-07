@@ -1,4 +1,6 @@
 from django.db import models
+from django.contrib.auth.models import User
+
 
 class Subscriber(models.Model):
     email = models.EmailField(unique=True)
@@ -6,3 +8,5 @@ class Subscriber(models.Model):
 
     def __str__(self):
         return self.email
+
+

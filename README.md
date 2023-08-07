@@ -285,7 +285,7 @@ For all testing, please refer to the [Testing.md]) file.
 
 I used this guide throughout my project for solving terminal issues.
 
-<img width="764" alt="Screen Shot 2023-05-15 at 16 06 13" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/144ab711-d889-4f32-9390-81aab2436d78">
+<img width="764" alt="Screen Shot 2023-05-15 at 16 06 13" src="https://github.com/MattyOL/blogcontent-WorldWide-Project.4/assets/111317260/144ab711-d889-4f32-9390-81aab2436d78">
 
 # Tools & Technologie Used in this project 
 1. [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.

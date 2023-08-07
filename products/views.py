@@ -6,6 +6,7 @@ from django.db.models.functions import Lower
 
 from .models import Product, Category
 from .forms import ProductForm
+from wishlist.models import Wishlist
 
 # Create your views here.
 
@@ -13,10 +14,15 @@ def all_products(request):
     """ A view to show all products, including sorting and search queries """
 
     products = Product.objects.all()
+    user_wishlist, created = Wishlist.objects.get_or_create(user=request.user)
+    items = user_wishlist.items.all()
     query = None
     categories = None
     sort = None
     direction = None
+
+    #if (wishlist.objects.filter(name__contains=product.name)):
+
 
     if request.GET:
         if 'sort' in request.GET:
@@ -54,6 +60,7 @@ def all_products(request):
         'search_term': query,
         'current_categories': categories,
         'current_sorting': current_sorting,
+        'wishlist': user_wishlist
     }
 
     return render(request, 'products/products.html', context)

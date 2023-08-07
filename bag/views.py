@@ -194,3 +194,4 @@ def my_view(request):
 
     # Return a JSON response to indicate success
     return JsonResponse({'success': True})
+
