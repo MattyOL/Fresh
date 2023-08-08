@@ -11,7 +11,6 @@ def contact(request):
         message = request.POST.get('message')
         contact.name = name
         contact.email = email
-        contact.phone = phone
         contact.message = message
         contact.save()
     return render(request, '../templates/contact/contact.html')

@@ -56,10 +56,11 @@
                                 <p class="my-0">€{{ item.price }}</p>
                             </td>
                             <td colspan="5" class="text-right">
-                                <a class="text-success" href="{% url 'add_to_bag' item.id %}">add to bag</a>
+                                <a class="text-success" href="{% url 'add_to_bag' item.id %}">Add to bag</a>
                             </td>
+                            
                             <td>
-                                <a class="text-danger" href="{% url 'remove_from_wishlist' item.id %}">Delete</a>
+                                <a class="text-danger" href="{% url 'remove_from_wishlist' item.id %}">Delete Item</a>
                             </td>
                         </tr>
                     {% endfor %}
@@ -85,7 +86,12 @@
             <input type="hidden" name="redirect_url" value="{{ request.path }}">
         {% else %}
           <p class="text-bl">Your wishlist is empty.</p>
-          <button class="btn btn-black">remove</button>
+          <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
+            <span class="icon">
+                <i class="fas fa-chevron-left"></i>
+            </span>
+            <span class="text-uppercase">Keep Shopping</span>
+        </a>
         {% endif %}
 
         

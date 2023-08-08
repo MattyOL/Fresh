@@ -432,6 +432,7 @@ h6 strong {
     font-size: 20px;
 }
 
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -807,6 +808,10 @@ footer {
 
 #p1 {
     float: right;
+}
+
+#blogtitle{
+    text-align: center;
 }
 
 /* fixed top navbar only on medium and up */
