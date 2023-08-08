@@ -247,6 +247,12 @@ The User can Add to bag where they can finish of the requirments to get there pr
 
 ## Future Features's
 
+* ### Discount
+  * In the future, I plan to implement a feature that enables me to generate discount codes. This will allow users to enjoy a 10% or 20% reduction in the prices of our offered products. These discount codes could be distributed through the newsletter using Mailchimp or be part of promotions on our marketing Facebook page. They might also be extended to new users joining the site or as a reward for our long-term customers.
+
+* ### Return Item form
+  * We provide the option for refunds and/or exchanges within the initial 30 days of your purchase. If this 30-day window has lapsed since your purchase, regrettably, we cannot offer any form of refund or exchange. It's imperative that the item remains unused and is returned in the same condition it was received for the eligibility of a refund or exchange.
+
 ## Search Engine Optimization 
 
  #  Facebook business page
