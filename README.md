@@ -12,7 +12,10 @@
 I wanted to keep the colour scheme quite simpley so its easy for the user to navigate and not get distracted while on the website The colour i used is 
 
 ### Colour Scheme 
+<img width="59" alt="Screen Shot 2023-08-08 at 13 06 07" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/cd934995-bd94-4357-a404-7f3ec267d5e7">
 
+<img width="59" alt="Screen Shot 2023-08-08 at 13 06 19" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/e1af65ad-f26c-40d1-b8ba-97921047d07b">
+<img width="42" alt="Screen Shot 2023-08-08 at 13 07 00" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/e6f300dc-cfed-4ced-8864-bfded3ff1a0d">
 
 
 ### Typography
@@ -135,10 +138,66 @@ In instances where the user clicks the search button without inputting any text,
   * The blog section comprises a compilation of articles centered around Vintage clothing and furniture, as well as strategies for reducing, reusing, and recycling, all of which are available for purchase on the site. Each blog post is accompanied by a primary image, a title, a brief preview, the author's name, the number of likes the post has received, and its publication date. Users have the option to click on a post to access the complete content.
     
 <img width="1424" alt="Screen Shot 2023-08-08 at 12 30 03" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/8925f97c-32df-422a-a0c6-9493735af75c">
+ ** Commenting / Likes 
+<img width="1212" alt="Screen Shot 2023-08-08 at 13 04 41" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/40c190b1-594e-40cc-80a5-926c9338f33f">
 
 
+* ### My profile
+ * My profile is located in my account along the navbar
+ * The user profile section encompasses personal information, providing users with the capability to update their address, name, and phone number. Additionally, users can access their recent order history through this page, gaining insights into their past purchases.
+
+<img width="1282" alt="Screen Shot 2023-08-08 at 13 45 36" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/a7784671-0654-449f-b2b7-75da5f305e60">
 
 
+* ### My wishlist
+
+* The Star symbol located on the product card will add to ur wishlist so from there you can then Add the product at a later date when it suuits you best but you need to be logged in for these features to be  accesible
+* 
+<img width="299" alt="Screen Shot 2023-08-08 at 13 13 27" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/5d00c8e4-c0ba-4368-aabb-582feed5e5c4">
+
+Star icon 
+
+<img width="57" alt="Screen Shot 2023-08-08 at 13 13 42" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/8791c168-487d-407a-8509-7e3bfee155e0">
+
+* WishList Page 
+<img width="1195" alt="Screen Shot 2023-08-08 at 13 18 56" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/538b3ffe-9982-44d8-a982-3b3871190059">
+
+The User can Add to bag where they can finish of the requirments to get there products sent to them , The user can also delete an item they do longer want to keep in there wishlist.
+
+<img width="366" alt="Screen Shot 2023-08-08 at 13 19 03" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/0142fa5d-9ec1-460d-9c22-63a07ae8aa73">
+
+* option to return back shoppping or Add to bag from wishist page
+
+* ### Bag
+
+* After successfully adding a product to their shopping bag, users receive feedback confirming that the addition was completed accurately.
+ <img width="374" alt="Screen Shot 2023-08-08 at 13 21 53" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/7ff2f49b-db84-4f3f-9293-5a8a02e9ec77">
+
+* Upon reaching the Secure Checkout page, users are also greeted with the opportunity to receive free delivery as part of the feedback process
+
+<img width="333" alt="Screen Shot 2023-08-08 at 13 23 49" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/a4703355-89f0-4e62-b322-92a43e25ebfb">
+
+* When users are ready to proceed with their selected items and move to the next step, they can click on the "Checkout" option. This action will redirect them to the checkout page.
+  
+ <img width="1160" alt="Screen Shot 2023-08-08 at 13 25 57" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/2cbcca64-8924-47eb-a128-e04bac37af8b">
+<img width="567" alt="Screen Shot 2023-08-08 at 13 26 02" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/8efc78dd-41c6-4933-b501-eebc54d61faf">
+
+* ### Checkout form
+
+* This is the section where users input their delivery details and provide their credit card information to complete the transaction.
+
+<img width="1308" alt="Screen Shot 2023-08-08 at 13 39 15" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/6d2c1db6-117c-4774-87a6-d763c82104d8">
+<img width="1080" alt="Screen Shot 2023-08-08 at 13 39 21" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/9bb8368c-306f-4546-ba03-75c5b3d7c788">
+
+* Order info after submiting details and card.
+ <img width="949" alt="Screen Shot 2023-08-08 at 13 44 12" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/ded4df14-3b76-4d78-8a03-96d364415ddd">
+
+ * ### Contact-Us
+    *This form serves as a means for users to initiate contact with us, allowing them to inquire about any matters concerning their purchases, upcoming events, or even submit job applications
+<img width="1402" alt="Screen Shot 2023-08-08 at 13 46 26" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/2d56518e-56d0-452d-a70c-bc961a431124">
+
+
+ 
 * ### Footer 
    
 * The footer of each page on the site consistently showcases a newsletter subscription option, social media icons, and copyright information.
@@ -146,16 +205,6 @@ In instances where the user clicks the search button without inputting any text,
 
 <img width="1422" alt="Screen Shot 2023-08-08 at 12 22 12" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/faa8adf6-18ec-4921-a86b-459b1c9a2767">
 
-
-
-
-
-
-
-  
- 
-  
-  
 * 
   * 
   
