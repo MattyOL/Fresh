@@ -389,7 +389,7 @@ Prior to prioritizing and implementing the Epics, I broke them down into smaller
 * **Enhancement** = To make to site more user friendly.
 
 ## Testing 
-For all testing, please refer to the [https://github.com/MattyOL/Fresh-Vintage-P5-/blob/main/TESTING.md) file.
+For all testing, please refer to the [Testing.md](https://github.com/MattyOL/Fresh-Vintage-P5-/blob/main/TESTING.md) file.
 
 
 # Git terminal Commands Guide 
@@ -440,7 +440,7 @@ I used this guide throughout my project for solving terminal issues.
 
 
 # ElephantSQl DataBase
-The live Link to deployment can be found on [Live link Heroku]()
+The live Link to deployment can be found on [Live link Heroku](https://fresh-p5-3dd3ff854c84.herokuapp.com/)
 
 This project uses [ElephantSQL](https://www.elephantsql.com/) for the PostgreSQL Database.
 
