@@ -370,12 +370,12 @@ The tool was used to visualize the development progress of the project by mappin
 
 GitHub Issues served as an another Agile tool. There, I used my own User Story Template to manage user stories and created a Bug tag to track and monitor issues on the site to be worked on.
 
-* [Open issues]()
+* [Open issues](https://github.com/MattyOL/Fresh-Vintage-P5-/issues?q=is%3Aopen+is%3Aissue)
 
 
 
 
-* [Closed issues ])
+* [Closed issues ](https://github.com/MattyOL/Fresh-Vintage-P5-/issues?q=is%3Aissue+is%3Aclosed)
 
 
 
