@@ -389,7 +389,7 @@ Prior to prioritizing and implementing the Epics, I broke them down into smaller
 * **Enhancement** = To make to site more user friendly.
 
 ## Testing 
-For all testing, please refer to the [Testing.md](https://github.com/MattyOL/Fresh-Vintage-P5-/blob/main/README.md) file.
+For all testing, please refer to the [https://github.com/MattyOL/Fresh-Vintage-P5-/blob/main/TESTING.md) file.
 
 
 # Git terminal Commands Guide 
