@@ -2,7 +2,7 @@
 
 [README.md](https://github.com/MattyOL/Fresh-Vintage-P5-/blob/main/README.md)
 ## Code Validation
-I have used the recommended HTML W3C Validator to validate all of my HTML files.
+I have used the recommended HTML W3C Validator to validate all of my HTML files in this project.
 
 In order to properly validate my HTML pages with Jinja syntax for authenticated pages, I followed these steps:
 
@@ -12,103 +12,86 @@ In order to properly validate my HTML pages with Jinja syntax for authenticated 
 * Copy everything, and use the validate by input method.
 * Repeat this process for every page that requires a user to be logged-in/authenticated
 
-### Home-page 
-
-
-
-| Page         | W3C URl         | Screenshot  |  Results |
-| -------------|:-------------:| -----------:| --------:  |
-|              |               |             |            |
-|    HOME      |    []()       |             |            |
-|              |               |             |            |
-| -------------|:-------------:| -----------:| --------:|
-|              |               |             |          |
-|    Login     |    []()       |             |          |
-|              |               |             |          |
-| -------------|:-------------:| -----------:| --------:|
-|              |               |             |          |
-|    Logout    |    []()       |             |          |
-|              |               |             |          |
-| -------------|:-------------:| -----------:| --------:|
-|              |               |             |          |
-| All Porducts |    []()       |             |          |
-|              |               |             |          |
-| -------------|:-------------:| -----------:| --------:|
-|              |               |             |          |
-|   Clothing   |    []()       |             |          |
-|              |               |             |          |
-| -------------|:-------------:| -----------:| --------:|
-|              |               |             |          |
-|    Homewear  |    []()       |             |          |
-|              |               |             |          |
-| -------------|:-------------:| -----------:| --------:|
-|              |               |             |          |
-| Special Offer|    []()       |             |          |
-|              |               |             |          |
-| -------------|:-------------:| -----------:| --------:|
-|              |               |             |          |
-|    Blog      |    []()       |             |          |
-|              |               |             |          |
-| -------------|:-------------:| -----------:| --------:|
-|              |               |             |          |
-| Product Mange|    []()       |             |          |
-|              |               |             |          |
-| -------------|:-------------:| -----------:| --------:|
-|              |               |             |          |
-|  My profile  |    []()       |             |          |
-|              |               |             |          |
-| -------------|:-------------:| -----------:| --------:|
-|              |               |             |          |
-|  Wishlist    |    []()       |             |          |
-|              |               |             |          |
-| -------------|:-------------:| -----------:| --------:|
-|              |               |             |          |
-|   Contact-us |    []()       |             |          |
-|              |               |             |          |
-| -------------|:-------------:| -----------:| --------:|
-|              |               |             |          |
-| Shopping Bag |    []()       |             |          |
-|              |               |             |          |
-| -------------|:-------------:| -----------:| --------:|
-|              |               |             |          |
-|   Checkout   |    []()       |             |          |
-|              |               |             |          |
-| -------------|:-------------:| -----------:| --------:|
-|              |               |             |          |
-|    HOME      |    []()       |             |          |
-|              |               |             |          |
-
-
-* no issues 
-
-
-
-### Login 
-* no issues 
-
-
-
-### Contact form 
-* no issues 
+| Page | W3C URL | Screenshot | Results |
+| --- | --- | --- | --- |
+| Home | [W3C]() | [Link]) | Pass: No Errors |
+| Sign Up | [W3C]() | [Link]() | Pass: No Errors |
+| Sign In | [W3C]() | [Link]()
+| All Products | [W3C]() | [Link]() | Pass: No Errors |
+| Individual Product | [W3C]() | [Link]() | Pass: No Errors |
+| Contact-us | [W3C]() | [Link]() | Pass: No Errors |
+| Blog | [W3C]() | [Link]() | Pass: No Errors |
+| Blog Post | [W3C]() | [Link]() | Pass: No Errors |
+| WishList | [W3C]() | [Link]() | Pass: No Errors |
+| product Mange | [W3C]() | [Link]() | Pass: No Errors |
+|Inbox | [W3C]() | [Link]() | Pass: No Errors |
+| Checkout | [W3C]() | [Link]() | Pass: No Errors |
+| My profile | [W3C]() | [Link]() | Pass: No Errors |
+| Bag | [W3C]() | [Link]() | Pass: No Errors |
+| Honewear| [W3C]() | [Link]() | Pass: No Errors |
+| Special offer | [W3C]() | [Link]() | Pass: No Errors |
+|Clothing | [W3C]() | [Link]() | Pass: No Errors |
 
 
 
 
-### wishlist
-* no issues 
 
-
-
-### 404 error page
-* no issues 
-
+### CSS
 
 ## Css Testing 
-* I have used the recommended CSS Jigsaw Validator to validate my CSS file. 
-* No issues 
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files in this project.
+
+| File | Jigsaw URL | Screenshot | results |
+| --- | --- | --- | --- |
+| style.css | [Jigsaw]() | [Link]() | Pass: No Errors |
+| checkout.css | n/a | [Link]() | Pass: No Errors |
+| profile.css | n/a | []() | Pass: No Errors |
+
 
 ## Python 
-I have used the recommended CI Python Linter to validate all of my Python files.
+### Python
+
+I have used the recommended [CI Python Linter]() to validate all of my Python files in this project.
+
+| File | CI URL | Screenshot | Notes |
+| --- | --- | --- | --- |
+|  | [CI PEP8]() | [Link]() | Pass: No Errors |
+|  | [CI PEP8]() | [Link]() | Pass: No Errors |
+|  | [CI PEP8]() | [Link]() | Pass: No Errors |
+|  | [CI PEP8]() | [Link]() | Pass: No Errors |
+|  [CI PEP8]() | [Link]() | Pass: No Errors |
+| | [CI PEP8]() | [Link]() | Pass: No Errors |
+|  | [CI PEP8]() | [Link]() | Pass: No Errors |
+|  | [CI PEP8]() | [Link]() | Pass: No Errors |
+| | [CI PEP8]() | [Link]() | Pass: No Errors |
+|| [CI PEP8]() | [Link]() | Pass: No Errors |
+| | [CI PEP8]() | [Link]() | Pass: No Errors |
+| | [CI PEP8]() | [Link]() | Pass: No Errors |
+| | [CI PEP8]() | [Link]() | Pass: No Errors |
+| | [CI PEP8]() | [Link]() | Pass: No Errors |
+|| [CI PEP8]() | [Link]() | Pass: No Errors |
+| | [CI PEP8]() | [Link]() | Pass: No Errors |
+
+
+### JavaScript
+
+I have used the recommended [JShint Validator]() to validate all of my JS files in this project.
+
+| File | Screenshot | Notes |
+| --- | --- | --- |
+| add_post.html (postloadjs) | ![screenshot]() | Pass: No Errors |
+|  (postloadjs) | ![screenshot]() | Pass: No Errors |
+|  (postloadjs) | ![screenshot]() | Pass: No Errors |
+|  (postloadjs) | ![screenshot]() | Pass: No Errors |
+|  (postloadjs) | ![screenshot]() | Pass: No Errors |
+|  (postloadjs) | ![screenshot]() | Pass: No Errors |
+|  (postloadjs) | ![screenshot]() | Pass: No Errors |
+|  (postloadjs) | ![screenshot]() | Pass: No Errors |
+|  (postloadjs) | ![screenshot]() | Pass: No Errors |
+
+
+
+
 
 ## tests.py 
 I done some test's in the test.py file using the terminal to get results using the 
