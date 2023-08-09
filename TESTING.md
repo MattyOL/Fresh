@@ -39,13 +39,14 @@ In order to properly validate my HTML pages with Jinja syntax for authenticated 
 ### CSS
 
 ## Css Testing 
-I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files in this project.
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator/) to validate all of my CSS files in this project.
 
 | File | Jigsaw URL | Screenshot | results |
 | --- | --- | --- | --- |
-| style.css | [Jigsaw]() | [Link]() | Pass: No Errors |
-| checkout.css | n/a | [Link]() | Pass: No Errors |
-| profile.css | n/a | []() | Pass: No Errors |
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator) | <img width="648" alt="Screen Shot 2023-08-09 at 12 33 59" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/9d91c4e9-0c7a-4c5f-9b70-83ff75226e3b">
+ | Pass: No Errors |
+| checkout.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator) | <img width="592" alt="Screen Shot 2023-08-09 at 12 28 38" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/3f109b49-225e-42ad-81da-f6b64cfeda94"> | Pass: No Errors |
+| profile.css | [jigsaw](https://jigsaw.w3.org/css-validator/validator) | <img width="933" alt="Screen Shot 2023-08-09 at 12 29 48" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/84446c84-3710-4603-8377-9d14a2996537"> | Pass: No Errors |
 
 
 ## Python 
