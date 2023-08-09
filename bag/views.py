@@ -11,10 +11,14 @@ from django.core.mail import send_mail
 from django.shortcuts import render
 from django.http import JsonResponse
 from products.models import Product
+
+
 # Create your views here.
 def view_bag(request):
     """ A view that renders the bag contents page """
     return render(request, 'bag/bag.html')
+
+
 def add_to_bag(request, item_id):
     """ Add a quantity of the specified product to the shopping bag """
     product = get_object_or_404(Product, pk=item_id)
@@ -45,6 +49,7 @@ def add_to_bag(request, item_id):
     request.session['bag'] = bag
     return redirect(redirect_url)
     
+
 def adjust_bag(request, item_id):
     """Adjust the quantity of the specified product to the specified amount"""
     product = get_object_or_404(Product, pk=item_id)
@@ -71,6 +76,8 @@ def adjust_bag(request, item_id):
             messages.success(request, f'Removed {product.name} from your bag')
     request.session['bag'] = bag
     return redirect(reverse('view_bag'))
+
+
 def remove_from_bag(request, item_id):
     """Remove the item from the shopping bag"""
     try:
@@ -92,6 +99,8 @@ def remove_from_bag(request, item_id):
     except Exception as e:
         messages.error(request, f'Error removing item: {e}')
         return HttpResponse(status=500)
+
+
 """ Newletters / mailchimp / ajax section"""
 def generate_discount_code(length=8):
     """Generate a random alphanumeric discount code of the given length."""
@@ -133,6 +142,8 @@ def subscribe_newsletter(request):
             return JsonResponse({'message': 'You are already subscribed!'})
     else:
         return JsonResponse({'message': 'Invalid request method.'}, status=400)
+
+
 def send_email_with_discount(request):
     if request.method == 'POST':
         discount_code = request.POST.get('discount_code')
@@ -147,6 +158,8 @@ def send_email_with_discount(request):
         return JsonResponse({'message': 'Email sent successfully!'})
     else:
         return JsonResponse({'message': 'Invalid request method.'}, status=400)
+
+        
 def my_view(request):
     # Process form data and generate the discount code
     discount_code = "DISCOUNT20"  # Replace this with your generated discount code
@@ -160,4 +173,5 @@ def my_view(request):
     send_mail(subject, message, from_email, [email])
 
     # Return a JSON response to indicate success
+    return JsonResponse({'success': True})
     return JsonResponse({'success': True})
