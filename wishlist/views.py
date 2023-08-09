@@ -10,7 +10,7 @@ from django.shortcuts import render, redirect, reverse, HttpResponse, get_object
 def wishlist(request):
     user_wishlist, created = Wishlist.objects.get_or_create(user=request.user)
     items = user_wishlist.items.all()
-    return render(request, '/workspace/Fresh/wishlist/templates/wishlist/wishlist.html', {'items': items})
+    return render(request, '../templates/wishlist/wishlist.html', {'items': items})
 
 
 @login_required
