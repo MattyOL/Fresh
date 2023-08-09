@@ -9,7 +9,7 @@ class MailchimpEmailBackend(BaseEmailBackend):
         self.client = Client()
         self.client.set_config({
             'api_key': 'YOUR_MAILCHIMP_API_KEY',
-            'server': 'YOUR_MAILCHIMP_API_SERVER_PREFIX',
+            'server': 'YOUR_MAILCHIMP_API_SERVER_PREFIX',  # e.g., 'us5', 'us2', etc.
         })
 
     def send_messages(self, email_messages):
