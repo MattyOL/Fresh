@@ -3,6 +3,5 @@ from . import views
 
 
 urlpatterns = [
-    path('', views.all_inbox, name='inbox'),
-    
+    path('', views.inbox, name='inbox'),
 ]

@@ -1,8 +1,8 @@
 from django.shortcuts import render
 
 
-def inbox(request, exception):
+def inbox(request):
     
-    return render(request, "inbox/inbox.html", status=404)
+    return render(request, "../templates/inbox/inbox.html")
 
     

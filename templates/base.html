@@ -100,8 +100,8 @@
               {% if request.user.is_authenticated %}
               {% if request.user.is_superuser %}
               <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
-              <a href="{% url 'inbox' %}" class="dropdown-item">Inbox</a>
               {% endif %}
+              <a href="{% url 'inbox' %}" class="dropdown-item">Inbox</a>
               <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
               <a href="{% url 'wishlist' %}" class="dropdown-item">My Wishlist</a>
               <a href="{% url 'contact' %}" class="dropdown-item">Contact Us</a>
