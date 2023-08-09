@@ -76,17 +76,29 @@ I have used the recommended [CI Python Linter](https://pep8ci.herokuapp.com/#) t
 |Contact admin| [CI PEP8](https://pep8ci.herokuapp.com/) | <img width="1354" alt="Screen Shot 2023-08-09 at 14 05 59" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/6f7b604c-5f97-4af4-bbc2-9bdba45b544d">| Pass: No Errors |
 | Contact app's| [CI PEP8](https://pep8ci.herokuapp.com/) | <img width="1359" alt="Screen Shot 2023-08-09 at 14 06 41" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/397928f1-22a1-40bd-8702-9211d5f9138f">| Pass: No Errors |
 |Contact model's| [CI PEP8](https://pep8ci.herokuapp.com/) |<img width="1307" alt="Screen Shot 2023-08-09 at 14 08 21" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/f104fa34-b0a0-49bc-86b1-3481207e9812">| Pass: No Errors |
-| | [CI PEP8]() |  | Pass: No Errors |
-|| [CI PEP8]() |  | Pass: No Errors |
-| | [CI PEP8]() |  | Pass: No Errors |
-|| [CI PEP8]() |  | Pass: No Errors |
-| | [CI PEP8]() |  | Pass: No Errors |
-|| [CI PEP8]() |  | Pass: No Errors |
-| | [CI PEP8]() |  | Pass: No Errors |
-|| [CI PEP8]() |  | Pass: No Errors |
-| | [CI PEP8]() |  | Pass: No Errors |
-|| [CI PEP8]() |  | Pass: No Errors |
-| | [CI PEP8]() |  | Pass: No Errors |
+|Contact view's| [CI PEP8]() |  | Pass: No Errors |
+|Contact url's| [CI PEP8]() |  | Pass: No Errors |
+|Fresh url's| [CI PEP8]() |  | Pass: No Errors |
+|Home Model's| [CI PEP8]() |  | Pass: No Errors |
+|Home url's | [CI PEP8]() |  | Pass: No Errors |
+|Home view's| [CI PEP8]() |  | Pass: No Errors |
+|Products admin | [CI PEP8]() |  | Pass: No Errors |
+|Products model's| [CI PEP8]() |  | Pass: No Errors |
+|Products url's | [CI PEP8]() |  | Pass: No Errors |
+|Products views's| [CI PEP8]() |  | Pass: No Errors |
+|Products form's| [CI PEP8]() |  | Pass: No Errors |
+|Products widget's| [CI PEP8]() |  | Pass: No Errors |
+|Profile app's| [CI PEP8]() |  | Pass: No Errors |
+|Profile form's| [CI PEP8]() |  | Pass: No Errors |
+|Profile model's| [CI PEP8]() |  | Pass: No Errors |
+|Profile url's| [CI PEP8]() |  | Pass: No Errors |
+|Profile views's| [CI PEP8]() |  | Pass: No Errors |
+|Wishlist app's| [CI PEP8]() |  | Pass: No Errors |
+|Wishlist model's| [CI PEP8]() |  | Pass: No Errors |
+|Wishlist url's| [CI PEP8]() |  | Pass: No Errors |
+|Wishlist views's| [CI PEP8]() |  | Pass: No Errors |
+
+
 
 
 
