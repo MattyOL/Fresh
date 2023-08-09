@@ -1,4 +1,3 @@
-
 from django.shortcuts import render, redirect
 from .models import Wishlist
 from django.contrib import messages
@@ -6,11 +5,13 @@ from products.models import Product
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect, reverse, HttpResponse, get_object_or_404
 
+
 @login_required
 def wishlist(request):
     user_wishlist, created = Wishlist.objects.get_or_create(user=request.user)
     items = user_wishlist.items.all()
     return render(request, '/workspace/Fresh/wishlist/templates/wishlist/wishlist.html', {'items': items})
+
 
 @login_required
 def add_to_wishlist(request, item_id):
