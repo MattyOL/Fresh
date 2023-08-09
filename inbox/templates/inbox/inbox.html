@@ -1,1 +1,64 @@
-P tag yuppa
+{% extends "base.html" %} 
+{% load static %} 
+
+{% block extra_meta %}
+<meta name="keywords" content="blog, posts">
+{% endblock %}
+
+{% block page_header %}
+    <div class="header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block content %}
+<!-- Contact page -->
+<div class="overlay"></div>
+  
+   
+
+  <div class="contact-in row">
+    
+        <div class="contact-map col-md-6 col-12" >
+            <h2>Admin Inbox</h2>
+                <div class="contact-map col-md-6 col-12">
+                    <ul >
+                        {% regroup contacts by email as contacts_group %}
+                        {% for group in contacts_group %}
+                        <li>
+                            <strong>Email:</strong> {{ group.grouper }}<br>
+                            <ul>
+                            {% for contact in group.list %}
+                                <li><strong>Message:</strong> {{ contact.message }}</li>
+                                <label for="selected_email">Select Email:</label>
+                                
+                                
+                            {% endfor %}
+                            </ul>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+        </div>
+    
+    
+        <div class="contact-form col-md-6 col-12">
+            <h1>Reply</h1>
+            <form method="post" class="was-validated">
+                
+                {% csrf_token %}
+                <input type="text" placeholder="Name" name="name" class="contact-form-txt"/> 
+                <input type="text" placeholder="Email" name="email" class="contact-form-txt"/>
+                <textarea placeholder="Message" class="contact-form-textarea" name="message" required></textarea>
+                <button class="btn btn-primary">Send</button>
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+{% endblock %}
