@@ -1,6 +1,6 @@
 ### Return to README.md
 [README.md](https://github.com/MattyOL/Fresh-Vintage-P5-/blob/main/README.md)
-## Code Validation
+## Code Validation HTML
 I have used the recommended HTML W3C Validator to validate all of my HTML files in this project.
 In order to properly validate my HTML pages with Jinja syntax for authenticated pages, I followed these steps:
 * Navigate to the deployed pages which require authentication
@@ -28,6 +28,17 @@ In order to properly validate my HTML pages with Jinja syntax for authenticated 
 | Honewear| [W3C]() | [Link]() | Pass: No Errors |
 | Special offer | [W3C]() | [Link]() | Pass: No Errors |
 |Clothing | [W3C]() | [Link]() | Pass: No Errors |
+
+## Css Testing 
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator/) to validate all of my CSS files in this project.
+
+
+| File | Jigsaw URL | Screenshot | results |
+| --- | --- | --- | --- |
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator) | <img width="648" alt="Screen Shot 2023-08-09 at 12 33 59" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/9d91c4e9-0c7a-4c5f-9b70-83ff75226e3b">| Pass: No Errors |
+| checkout.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator) | <img width="592" alt="Screen Shot 2023-08-09 at 12 28 38" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/3f109b49-225e-42ad-81da-f6b64cfeda94"> | Pass: No Errors |
+| profile.css | [jigsaw](https://jigsaw.w3.org/css-validator/validator) | <img width="933" alt="Screen Shot 2023-08-09 at 12 29 48" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/84446c84-3710-4603-8377-9d14a2996537"> | Pass: No Errors |
+
 
  
 ### Python
@@ -78,22 +89,11 @@ I have used the recommended [CI Python Linter](https://pep8ci.herokuapp.com/#) t
 |Wishlist url's| <img width="1355" alt="Screen Shot 2023-08-09 at 15 31 53" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/fdcf2e0c-b77c-4e6e-b811-f8771f40e0ff">| Pass: No Errors |
 |Wishlist views's| <img width="1384" alt="Screen Shot 2023-08-09 at 15 32 56" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/b4448ba9-e380-4d45-b941-5d4280497fb3">| Pass: No Errors |
 
-I have used the recommended [JShint Validator]() to validate all of my JS files in this project.
 
 
-| File | Jigsaw URL | Screenshot | results |
-| --- | --- | --- | --- |
-| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator) | <img width="648" alt="Screen Shot 2023-08-09 at 12 33 59" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/9d91c4e9-0c7a-4c5f-9b70-83ff75226e3b">| Pass: No Errors |
-| checkout.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator) | <img width="592" alt="Screen Shot 2023-08-09 at 12 28 38" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/3f109b49-225e-42ad-81da-f6b64cfeda94"> | Pass: No Errors |
-| profile.css | [jigsaw](https://jigsaw.w3.org/css-validator/validator) | <img width="933" alt="Screen Shot 2023-08-09 at 12 29 48" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/84446c84-3710-4603-8377-9d14a2996537"> | Pass: No Errors |
 
 
-## Css Testing 
-* I have used the recommended CSS Jigsaw Validator to validate my CSS file. 
-* No issues 
 
-## Python 
-I have used the recommended CI Python Linter to validate all of my Python files.
 
 ## tests.py 
 I done some test's in the test.py file using the terminal to get results using the 
@@ -184,50 +184,60 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 ### Home page
 
 * Desktop devices
+<img width="506" alt="Screen Shot 2023-08-09 at 19 00 05" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/9839236b-42bb-4199-a94e-706e915ee4c6">
 
 * Mobile devices
+<img width="489" alt="Screen Shot 2023-08-09 at 19 01 43" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/134856bb-2317-4dce-93ed-5a9e51f19d37">
 
 
 
-### About page
+### All Products page
 
 * Desktop devices
+<img width="574" alt="Screen Shot 2023-08-09 at 19 03 58" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/15498d4d-30b8-4371-bacd-1e5fe66b2331">
 
 
 * Mobile devices
-
+<img width="572" alt="Screen Shot 2023-08-09 at 19 03 19" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/1e2f7b73-8bbe-4b84-a796-06244adc7d43">
 
 
 ### Sign up page
-
 * Desktop devices
-
+<img width="526" alt="Screen Shot 2023-08-09 at 19 08 32" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/7a03d347-b63e-4b0d-8d4a-47fadfa37a33">
 
 * Mobile devices
+<img width="574" alt="Screen Shot 2023-08-09 at 19 07 56" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/59b063ee-9547-4347-b3ef-2c725217c920">
 
 
 ### Login page
 
 * Desktop devices
+<img width="544" alt="Screen Shot 2023-08-09 at 19 05 52" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/08401279-cfaf-4462-8557-c436a15b3d41">
 
 
 * Mobile devices
+<img width="543" alt="Screen Shot 2023-08-09 at 19 05 12" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/06f1edac-b0bb-4ab8-893f-ab508a8abe39">
 
 
-### Contact Form
+### Contact Us
 
 * Desktop devices
+<img width="525" alt="Screen Shot 2023-08-09 at 19 09 53" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/78fc5d4e-3842-4b3e-b100-ad40f32b1516">
 
 
 * Mobile devices
+* * Mobile devices
 
 
-### 
+### Product Management
 
 * Desktop devices
+ <img width="550" alt="Screen Shot 2023-08-09 at 19 12 47" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/1b523b69-6581-4c7e-b809-3a7c3b90e880">
+
 
 
 * Mobile devices
+<img width="508" alt="Screen Shot 2023-08-09 at 19 12 16" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/900f7cdf-bf39-4b65-9c92-6353f88e1e53">
 
 
 ### 404 error page
@@ -241,6 +251,83 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 ### Log out page
 
 * Desktop devices
+<img width="525" alt="Screen Shot 2023-08-09 at 19 13 41" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/3d9034e4-cd14-4070-8b35-628aae74cc4a">
+
+
+* Mobile devices
+
+<img width="570" alt="Screen Shot 2023-08-09 at 19 14 28" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/2d2ec75a-f8f2-4c88-bf74-e21afcfcc863">
+
+### Log out page
+
+* Desktop devices
+<img width="525" alt="Screen Shot 2023-08-09 at 19 13 41" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/3d9034e4-cd14-4070-8b35-628aae74cc4a">
+
+
+* Mobile devices
+
+<img width="570" alt="Screen Shot 2023-08-09 at 19 14 28" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/2d2ec75a-f8f2-4c88-bf74-e21afcfcc863">
+
+### My Profile
+
+* Desktop devices
+
+
+
+* Mobile devices
+
+### Clothing
+
+* Desktop devices
+
+
+
+* Mobile devices
+
+### Homewear
+
+* Desktop devices
+
+
+
+* Mobile devices
+
+### Special Offer's
+
+* Desktop devices
+
+
+
+* Mobile devices
+
+### Wishlist
+
+* Desktop devices
+
+
+
+* Mobile devices
+
+### Shopping bag
+
+* Desktop devices
+
+
+
+* Mobile devices
+
+### SHopping bag (items in bag)
+
+* Desktop devices
+
+
+
+* Mobile devices
+
+### Blog
+
+* Desktop devices
+
 
 
 * Mobile devices
