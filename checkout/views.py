@@ -18,6 +18,23 @@ import json
 @require_POST
 def cache_checkout_data(request):
     try:
+
+    
+          
+            
+    
+
+          
+          Expand Down
+          
+            
+    
+
+          
+          Expand Up
+    
+    @@ -46,9 +50,14 @@ def checkout(request):
+  
         pid = request.POST.get('client_secret').split('_secret')[0]
         stripe.api_key = settings.STRIPE_SECRET_KEY
         stripe.PaymentIntent.modify(pid, metadata={
@@ -30,15 +47,11 @@ def cache_checkout_data(request):
         messages.error(request, 'Sorry, your payment cannot be \
             processed right now. Please try again later.')
         return HttpResponse(content=e, status=400)
-
-
 def checkout(request):
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
     stripe_secret_key = settings.STRIPE_SECRET_KEY
-
     if request.method == 'POST':
         bag = request.session.get('bag', {})
-
         form_data = {
             'full_name': request.POST['full_name'],
             'email': request.POST['email'],
@@ -61,6 +74,23 @@ def checkout(request):
             for item_id, item_data in bag.items():
                 try:
                     product = Product.objects.get(id=item_id)
+
+    
+          
+            
+    
+
+          
+          Expand Down
+          
+            
+    
+
+          
+          Expand Up
+    
+    @@ -76,6 +85,7 @@ def checkout(request):
+  
                     if isinstance(item_data, int):
                         order_line_item = OrderLineItem(
                             order=order,
@@ -89,6 +119,17 @@ def checkout(request):
             request.session['save_info'] = 'save-info' in request.POST
             return redirect(reverse('checkout_success', args=[order.order_number]))
         else:
+
+    
+        
+          
+    
+
+        
+        Expand All
+    
+    @@ -96,7 +106,25 @@ def checkout(request):
+  
             messages.error(request, 'There was an error with your form. \
                 Please double check your information.')
     else:
@@ -96,7 +137,6 @@ def checkout(request):
         if not bag:
             messages.error(request, "There's nothing in your bag at the moment")
             return redirect(reverse('products'))
-
         current_bag = bag_contents(request)
         total = current_bag['grand_total']
         stripe_total = round(total * 100)
@@ -129,17 +169,13 @@ def checkout(request):
     if not stripe_public_key:
         messages.warning(request, 'Stripe public key is missing. \
             Did you forget to set it in your environment?')
-
     template = 'checkout/checkout.html'
     context = {
         'order_form': order_form,
         'stripe_public_key': stripe_public_key,
         'client_secret': intent.client_secret,
     }
-
     return render(request, template, context)
-
-
 def checkout_success(request, order_number):
     """
     Handle successful checkouts
@@ -172,12 +208,20 @@ def checkout_success(request, order_number):
         Your order number is {order_number}. A confirmation \
         email will be sent to {order.email}.')
 
+    
+          
+            
+    
+
+          
+          Expand Down
+    
+    
+  
     if 'bag' in request.session:
         del request.session['bag']
-
     template = 'checkout/checkout_success.html'
     context = {
         'order': order,
     }
-
     return render(request, template, context)
