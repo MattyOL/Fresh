@@ -27,104 +27,83 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
 <details>
 <summary>Click to View Home Page wireframes</summary>
 
-#### Mobile
-[screenshot]()
-
 
 #### Desktop
-![screenshot](<img width="850" alt="Screen Shot 2023-07-31 at 15 47 03" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/a188c2b4-d291-47e0-a08e-64f2ff1bed5d">)
+<img width="850" alt="Screen Shot 2023-07-31 at 15 47 03" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/a188c2b4-d291-47e0-a08e-64f2ff1bed5d">
 
 </details>
 
 <details>
 <summary>Click to View Footer wireframes</summary>
 
-#### Mobile
-[screenshot]()
-
 
 #### Desktop
-[screenshot](<img width="856" alt="Screen Shot 2023-07-31 at 15 49 07" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/7792ed85-1a94-49ea-8d59-1ffd7e3005fd">)
+<img width="856" alt="Screen Shot 2023-07-31 at 15 49 07" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/7792ed85-1a94-49ea-8d59-1ffd7e3005fd">
 
 </details>
 
 <details>
 <summary>Click to View Products page wireframes</summary>
 
-#### Mobile
-[screenshot]()
 
 
 #### Desktop
-[screenshot](<img width="852" alt="Screen Shot 2023-07-31 at 15 47 37" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/fcdc8519-7501-4dab-840e-091930f46a94">)
+<img width="852" alt="Screen Shot 2023-07-31 at 15 47 37" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/fcdc8519-7501-4dab-840e-091930f46a94">
 
 </details>
 
 <details>
 <summary>Click to View Blog page wireframes</summary>
 
-#### Mobile
-[screenshot]()
-
 
 #### Desktop
-[screenshot](<img width="856" alt="Screen Shot 2023-07-31 at 15 49 17" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/f319beec-e820-42b8-9516-df13f0202c1f">)
+
+<img width="856" alt="Screen Shot 2023-07-31 at 15 49 17" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/f319beec-e820-42b8-9516-df13f0202c1f">
 
 </details>
 
 <details>
 <summary>Click to View  Sign-Up-Page wireframes</summary>
 
-#### Mobile
-[screenshot]()
-
 
 #### Desktop
-[screenshot](<img width="849" alt="Screen Shot 2023-07-31 at 15 48 23" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/704206ac-89d1-4718-8b66-af462aa76fdb">)
+<img width="849" alt="Screen Shot 2023-07-31 at 15 48 23" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/704206ac-89d1-4718-8b66-af462aa76fdb">
 
 </details>
 
 <details>
 <summary>Click to View My profile wireframes</summary>
 
-#### Mobile
-[screenshot]()
+
 
 
 #### Desktop
-[screenshot](<img width="846" alt="Screen Shot 2023-07-31 at 15 48 58" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/32dea98a-b401-4d09-9113-db4aa16d977f">)
+<img width="846" alt="Screen Shot 2023-07-31 at 15 48 58" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/32dea98a-b401-4d09-9113-db4aa16d977f">
 
 </details>
 
 <details>
 <summary>Click to View  Product Management wireframes</summary>
 
-#### Mobile
-[screenshot]()
+
 
 
 #### Desktop
-[screenshot](<img width="848" alt="Screen Shot 2023-07-31 at 15 48 42" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/332bb3cb-e6e9-4c17-aebf-b4f7fc176db5">)
+<img width="848" alt="Screen Shot 2023-07-31 at 15 48 42" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/332bb3cb-e6e9-4c17-aebf-b4f7fc176db5">
 
 </details>
 
 <details>
 <summary>Click to View login-Page wireframes</summary>
 
-#### Mobile
-[screenshot]()
-
 
 #### Desktop
-[screenshot](<img width="850" alt="Screen Shot 2023-07-31 at 15 48 33" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/f1c65901-d08b-4891-b4ea-1cdd42228c67">)
+<img width="850" alt="Screen Shot 2023-07-31 at 15 48 33" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/f1c65901-d08b-4891-b4ea-1cdd42228c67">
 
 </details>
 
 <details>
 <summary>Click to View  wireframes</summary>
-
-#### Mobile
-[screenshot]()
 
 
 #### Desktop
@@ -134,8 +113,6 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
 <details>
 <summary>Click to View  wireframes</summary>
 
-#### Mobile
-[screenshot]()
 
 
 #### Desktop
@@ -147,8 +124,6 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
  
 <summary>Click to View  wireframes</summary>
 
-#### Mobile
-[screenshot]()
 
 
 #### Desktop
@@ -159,9 +134,6 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
 <details>
 <summary>Click to View Wishlist wireframes</summary>
 
-#### Mobile
-[screenshot]()
-
 
 #### Desktop
 [screenshot]()
@@ -171,20 +143,16 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
 <details>
 <summary>Click to View Contact-Page wireframes</summary>
 
-#### Mobile
-![screenshot]()
 
 
 #### Desktop
-![screenshot](<img width="852" alt="Screen Shot 2023-07-31 at 15 48 11" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/8adbafa4-209b-44ee-94a1-6dad6cf00b92">)
+<img width="852" alt="Screen Shot 2023-07-31 at 15 48 11" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/8adbafa4-209b-44ee-94a1-6dad6cf00b92">
 
 </details>
 
 <details>
 <summary>Click to View 404-Error-Page wireframes</summary>
 
-#### Mobile
-[screenshot]()
 
 
 #### Desktop
@@ -195,9 +163,6 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
 <details>
 <summary>Click to View Contact Us wireframes</summary>
 
-#### Mobile
-[screenshot]()
-
 
 #### Desktop
 [screenshot]()
@@ -208,106 +173,274 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
 
 
 
-
-
-
-
-
-
 ## Existing Feature's
 
-* ### Home-Page 
-  * This is the page a user lands on when arriving at the site. It welcomes them to the site and gives them an idea of what the site sells. A button is present that will bring the user to the site's product page.
-    ![Screen Shot 2023-08-08 at 11 20 30](https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/d9d90a42-3cb3-4bd6-b63b-29d6ef124f09)
 
-* ### Main Nav Menu
+<details>
+
+ * This is the page a user lands on when arriving at the site. It welcomes them to the site and gives them an idea of what the site sells. A button is present that will bring the user to the site's product page.
+   
+<summary>Click to View Home-Page </summary>
+
+
+#### Desktop
+![Screen Shot 2023-08-08 at 11 20 30](https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/d9d90a42-3cb3-4bd6-b63b-29d6ef124f09)
+
+</details>
+
+
+
+<details>
+
  * Across the entirety of the website, users have continuous access to the primary navigation menu. This menu incorporates various functionalities such as a search bar, the ability to access one's account or profile, a link to the shopping basket, and a displayed total if there are items present in the user's basket. Additionally, there are links provided for filtering products by platform and category. Furthermore, a link to the website's blog is also available
-  <img width="1412" alt="Screen Shot 2023-08-08 at 11 24 00" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/fe15ea86-abc0-4d1a-8687-16f0448409b2">
+   
+<summary>Click to View Main Nav Menu </summary>
 
-  * Nav Bar headings with items that link to products categorys
-   <img width="762" alt="Screen Shot 2023-08-08 at 12 09 48" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/9b622952-7ecc-47d4-92a4-f446c2e9bd3f">
+#### Mobile
 
-* ### ALl Product's
 
+#### Desktop
+<img width="1412" alt="Screen Shot 2023-08-08 at 11 24 00" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/fe15ea86-abc0-4d1a-8687-16f0448409b2">
+
+</details>
+
+<details>
+
+ 
+<summary>Click to View Nav Bar headings with items that link to products categorys</summary>
+
+#### Mobile
+
+
+#### Desktop
+<img width="762" alt="Screen Shot 2023-08-08 at 12 09 48" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/9b622952-7ecc-47d4-92a4-f446c2e9bd3f">
+
+
+</details>
+
+<details>
+
+ 
+<summary>Click to View ALl Product's </summary>
+
+#### Mobile
+
+
+#### Desktop
 <img width="197" alt="Screen Shot 2023-08-08 at 12 09 14" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/40cb5685-400f-40a3-8dc2-6207e0605df6">
 
-* ### Clothing
-  
+</details>
+
+ 
+<details>
+
+ 
+<summary>Click to View Clothing </summary>
+
+#### Mobile
+
+
+#### Desktop
 <img width="129" alt="Screen Shot 2023-08-08 at 12 09 21" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/a54b3817-7f00-4cd3-b3c1-d98822636491">
 
-* ### Homewear
+</details>
 
+
+<details>
+
+ 
+<summary>Click to View Homewear </summary>
+
+#### Mobile
+
+
+#### Desktop
   <img width="171" alt="Screen Shot 2023-08-08 at 12 09 32" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/8fd31305-c976-44df-b6f9-0b42745192b4">
 
-* ### Special Offer's
+</details>
 
+
+
+
+<details>
+
+ 
+<summary>Click to View Special Offer's </summary>
+
+#### Mobile
+
+
+#### Desktop
 <img width="173" alt="Screen Shot 2023-08-08 at 12 09 38" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/3cbded11-3061-44d4-9f4e-42a1ba463fc2">
 
-* ### Blog
+</details>
+
   
+<details>
+
+ 
+<summary>Click to View Blog </summary>
+
+#### Mobile
+
+
+#### Desktop
 <img width="78" alt="Screen Shot 2023-08-08 at 12 13 32" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/6aff63a9-c774-4c97-a055-09dae05b0e15">
 
+</details>
 
-* ### Search-Bar
- *  Utilizing the navigation menu's search bar, users have the capability to locate particular products. The search term entered is cross-referenced with the names and descriptions of products, resulting in a compilation of products that correspond to the search query. Moreover, the user is presented with information regarding the number of outcomes generated by their search term.
+
+<details>
+
+  * Utilizing the navigation menu's search bar, users have the capability to locate particular products. The search term entered is cross-referenced with the names and descriptions of products, resulting in a compilation of products that correspond to the search query. Moreover, the user is presented with information regarding the number of outcomes generated by their search term.
 In instances where the user clicks the search button without inputting any text, an error message is displayed.
+<summary>Click to View  Search-Bar</summary>
 
+#### Mobile
+
+
+#### Desktop
 <img width="1412" alt="Screen Shot 2023-08-08 at 11 24 00" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/6da0788c-97df-4f8a-9f7e-7abaa80afcb9">
 
-*  ### All Products page
-  * This page encompasses the entire range of products available for sale on the site.
-  <img width="787" alt="Screen Shot 2023-08-08 at 11 34 00" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/c070d3bf-36cc-424e-a7ed-51eba3520bf1">
+</details>
+
+<details>
+ 
+ * This page encompasses the entire range of products available for sale on the site.
+ 
+<summary>Click to View  All Products page</summary>
+
+#### Mobile
+
+
+#### Desktop
+<img width="787" alt="Screen Shot 2023-08-08 at 11 34 00" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/c070d3bf-36cc-424e-a7ed-51eba3520bf1">
+
+</details>
 
 
 
-* ### Product Card
-* Every individual product is presented within its own card, featuring essential details such as the product's image, name, rating, favorited status, and price.
+<details>
 
+ * Every individual product is presented within its own card, featuring essential details such as the product's image, name, rating, favorited status, and price.
+<summary>Click to View Product Card</summary>
+
+#### Mobile
+
+#### Desktop
 <img width="287" alt="Screen Shot 2023-08-08 at 11 35 27" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/018ea919-503f-468c-b048-c9b6a699bbba">
 
-* # The admin can edit or delete when signed in.
 
-* ### Sorting Products 
+</details>
+<details>
+ 
  * While browsing the "All Products" page, users have the ability to arrange the products using various sorting options. These options encompass Products can be sorted by: Price (low to high), Price (high to low),Rating (A-Z), Rating (Z-A), Name (A-Z), Name (Z-A), Category (A-Z), Category (Z-A)
+ 
+<summary>Click to View Sorting Products </summary>
+
+#### Mobile
+
+#### Desktop
 <img width="292" alt="Screen Shot 2023-08-08 at 11 41 47" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/92017f08-849e-418f-8cc4-9dcea9ff1b61">
 <img width="293" alt="Screen Shot 2023-08-08 at 11 41 53" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/5654a51b-8c8f-40ee-a42d-6a38ba153441">
 
-* Blog page
+</details>
 
-  * The blog section comprises a compilation of articles centered around Vintage clothing and furniture, as well as strategies for reducing, reusing, and recycling, all of which are available for purchase on the site. Each blog post is accompanied by a primary image, a title, a brief preview, the author's name, the number of likes the post has received, and its publication date. Users have the option to click on a post to access the complete content.
-    
+
+ 
+<details>
+ 
+ * The blog section comprises a compilation of articles centered around Vintage clothing and furniture, as well as strategies for reducing, reusing, and recycling, all of which are available for purchase on the site. Each blog post is accompanied by a primary image, a title, a brief preview, the author's name, the number of likes the post has received, and its publication date. Users have the option to click on a post to access the complete content.
+ 
+<summary>Click to Blog page </summary>
+
+#### Mobile
+
+#### Desktop
 <img width="1424" alt="Screen Shot 2023-08-08 at 12 30 03" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/8925f97c-32df-422a-a0c6-9493735af75c">
- ** Commenting / Likes 
+
+* Commenting / Likes 
 <img width="1212" alt="Screen Shot 2023-08-08 at 13 04 41" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/40c190b1-594e-40cc-80a5-926c9338f33f">
 
 
-* ### My profile
- * My profile is located in my account along the navbar
- * The user profile section encompasses personal information, providing users with the capability to update their address, name, and phone number. Additionally, users can access their recent order history through this page, gaining insights into their past purchases.
+</details>
+
+ 
+<details>
+ 
+* My profile is located in my account along the navbar
+ 
+* The user profile section encompasses personal information, providing users with the capability to update their address, name, and phone number. Additionally, users can access their recent order history through this page, gaining insights into their past purchases.
+ 
+<summary>Click to My profile </summary>
+
+#### Mobile
+
+#### Desktop
+
 
 <img width="1282" alt="Screen Shot 2023-08-08 at 13 45 36" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/a7784671-0654-449f-b2b7-75da5f305e60">
 
 
-* ### My wishlist
+</details>
 
-* The Star symbol located on the product card will add to ur wishlist so from there you can then Add the product at a later date when it suuits you best but you need to be logged in for these features to be  accesible
-* 
+<details>
+ 
+ * The Star symbol located on the product card will add to ur wishlist so from there you can then Add the product at a later date when it suuits you best but you need to be logged in for these features to be  accesible
+ 
+<summary>Click to My wishlist </summary>
+
+#### Mobile
+
+#### Desktop
 <img width="299" alt="Screen Shot 2023-08-08 at 13 13 27" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/5d00c8e4-c0ba-4368-aabb-582feed5e5c4">
 
-Star icon 
+</details>
+
+<details>
+ 
+ 
+<summary>Click to Star icon  </summary>
+
+#### Desktop
 
 <img width="57" alt="Screen Shot 2023-08-08 at 13 13 42" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/8791c168-487d-407a-8509-7e3bfee155e0">
 
-* WishList Page 
+</details>
+
+<details>
+ 
+ * The User can Add to bag where they can finish of the requirments to get there products sent to them , The user can also delete an item they do longer want to keep in there wishlist.
+ 
+<summary>Click to WishList Page </summary>
+
+#### Mobile
+
+#### Desktop
 <img width="1195" alt="Screen Shot 2023-08-08 at 13 18 56" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/538b3ffe-9982-44d8-a982-3b3871190059">
 
-The User can Add to bag where they can finish of the requirments to get there products sent to them , The user can also delete an item they do longer want to keep in there wishlist.
+</details>
 
-<img width="366" alt="Screen Shot 2023-08-08 at 13 19 03" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/0142fa5d-9ec1-460d-9c22-63a07ae8aa73">
+<details>
 
 * option to return back shoppping or Add to bag from wishist page
+ 
+<summary>Click to and return /add </summary>
 
-* ### Bag
+#### Mobile
+
+#### Desktop
+<img width="366" alt="Screen Shot 2023-08-08 at 13 19 03" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/0142fa5d-9ec1-460d-9c22-63a07ae8aa73">
+
+</details>
+
+<details>
+ 
+<summary>Click to  Bag</summary>
+
+#### Mobile
+
+#### Desktop
 
 * After successfully adding a product to their shopping bag, users receive feedback confirming that the addition was completed accurately.
  <img width="374" alt="Screen Shot 2023-08-08 at 13 21 53" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/7ff2f49b-db84-4f3f-9293-5a8a02e9ec77">
@@ -321,8 +454,14 @@ The User can Add to bag where they can finish of the requirments to get there pr
  <img width="1160" alt="Screen Shot 2023-08-08 at 13 25 57" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/2cbcca64-8924-47eb-a128-e04bac37af8b">
 <img width="567" alt="Screen Shot 2023-08-08 at 13 26 02" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/8efc78dd-41c6-4933-b501-eebc54d61faf">
 
-* ### Checkout form
+</details>
 
+ <details>
+<summary>Click to Checkout form </summary>
+
+#### Mobile
+
+#### Desktop
 * This is the section where users input their delivery details and provide their credit card information to complete the transaction.
 
 <img width="1308" alt="Screen Shot 2023-08-08 at 13 39 15" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/6d2c1db6-117c-4774-87a6-d763c82104d8">
@@ -331,56 +470,90 @@ The User can Add to bag where they can finish of the requirments to get there pr
 * Order info after submiting details and card.
  <img width="949" alt="Screen Shot 2023-08-08 at 13 44 12" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/ded4df14-3b76-4d78-8a03-96d364415ddd">
 
- * ### Contact-Us
-    *This form serves as a means for users to initiate contact with us, allowing them to inquire about any matters concerning their purchases, upcoming events, or even submit job applications
+</details>
+
+   
+ <details>
+<summary>Click to  Contact-Us</summary>
+
+#### Mobile
+
+#### Desktop
+* This form serves as a means for users to initiate contact with us, allowing them to inquire about any matters concerning their purchases, upcoming events, or even submit job applications
 <img width="1402" alt="Screen Shot 2023-08-08 at 13 46 26" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/2d56518e-56d0-452d-a70c-bc961a431124">
 
+</details>
 
- 
-* ### Footer 
-   
+
+ <details>
+<summary>Click to Footer  </summary>
+
+#### Mobile
+
+#### Desktop
 * The footer of each page on the site consistently showcases a newsletter subscription option, social media icons, and copyright information.
- ** The newsletter feature is interactive and accessible to users. It is integrated with Mailchimp, allowing users to subscribe. Upon subscription, users receive emails from the site containing information about discounts and special offers for first-time sign-ups.
+ * The newsletter feature is interactive and accessible to users. It is integrated with Mailchimp, allowing users to subscribe. Upon subscription, users receive emails from the site containing information about discounts and special offers for first-time sign-ups.
 
 <img width="1422" alt="Screen Shot 2023-08-08 at 12 22 12" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/faa8adf6-18ec-4921-a86b-459b1c9a2767">
 
-* 
-  * 
-  
-  
+</details>
 
-* 
-  *  
+<details>
+<summary>Click to  </summary>
 
-  
-*  
-   * 
+#### Mobile
+
+#### Desktop
 
 
-   
-*
-  * 
+</details>
+
+<details>
+<summary>Click to  </summary>
+
+#### Mobile
+
+#### Desktop
 
 
-  
-* 
-  * 
-  
-  
+</details>
 
-* 
-  * 
-  
+<details>
+<summary>Click to  </summary>
 
-  
-*  
-  * 
+#### Mobile
+
+#### Desktop
 
 
-* 
-  
-*
- 
+</details>
+
+<details>
+<summary>Click to  </summary>
+
+#### Mobile
+
+#### Desktop
+
+
+</details>
+
+<details>
+<summary>Click to  </summary>
+
+#### Mobile
+
+#### Desktop
+
+
+</details>
+
+
+
+
+
+
+
 
 
 
@@ -392,10 +565,10 @@ The User can Add to bag where they can finish of the requirments to get there pr
  
 * During the project's development, I made attempts to integrate this feature using Mailchimp. However, I encountered persistent issues with the JavaScript code. I've documented the code in my commits, and I plan to revisit it when I have a more substantial amount of time available. This feature holds a high priority as it directly contributes to retaining customer engagement and encouraging consistent visits to the website.
 
-Upon reassessing my time allocation, I realized that resolving these challenges was consuming a significant portion of my schedule. Consequently, I opted to explore alternative feature ideas that could be implemented more efficiently. I've compiled screenshots of the code I attempted to incorporate, which you can find below for reference.
+* Upon reassessing my time allocation, I realized that resolving these challenges was consuming a significant portion of my schedule. Consequently, I opted to explore alternative feature ideas that could be implemented more efficiently. I've compiled screenshots of the code I attempted to incorporate, which you can find below for reference.
 
 <details>
-<summary>Click to View Home Page wireframes</summary>
+<summary>Code Snippit wireframes</summary>
 
 
 #### Code
@@ -407,10 +580,10 @@ Upon reassessing my time allocation, I realized that resolving these challenges 
 
 </details>
 
-* ### Return Item form
+ ### Return Item form
   * We provide the option for refunds and/or exchanges within the initial 30 days of your purchase. If this 30-day window has lapsed since your purchase, regrettably, we cannot offer any form of refund or exchange. It's imperative that the item remains unused and is returned in the same condition it was received for the eligibility of a refund or exchange.
  
-  * ### Trading platform for clothing/furniture 
+ ### Trading platform for clothing/furniture 
   * I intend to return and establish a platform where individuals can engage in clothing and furniture trading among themselves. Additionally, they will have the option to donate items they no longer require, allowing others to benefit from them in the future. This approach aims to contribute to a more sustainable future by diminishing the accumulation of unused items.
 ## Search Engine Optimization 
 
