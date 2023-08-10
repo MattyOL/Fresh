@@ -212,162 +212,245 @@ I used linter pylint to test the python code.
 
 * I am pleased to inform you that the website you are using is fully responsive, ensuring a seamless user experience across all devices. Whether you access the website from a desktop computer, laptop, tablet, or smartphone, its layout, design, and functionality adapt flawlessly to different screen sizes and resolutions. This responsiveness guarantees that you can enjoy the website's features, navigate effortlessly, and interact with its content efficiently, regardless of the device you choose to use. With a commitment to providing an optimal user experience, the website's responsiveness ensures accessibility and convenience for all visitors, enhancing your satisfaction and usability.
 
-Results = pass fully responsive
 
 
 ## Lighthouse Test's
 
 I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
 
+
 ### Home page
+<details>
+ 
+#### Mobile
 
-* Desktop devices
-<img width="506" alt="Screen Shot 2023-08-09 at 19 00 05" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/9839236b-42bb-4199-a94e-706e915ee4c6">
-
-* Mobile devices
 <img width="489" alt="Screen Shot 2023-08-09 at 19 01 43" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/134856bb-2317-4dce-93ed-5a9e51f19d37">
 
+#### Desktop
 
+<img width="506" alt="Screen Shot 2023-08-09 at 19 00 05" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/9839236b-42bb-4199-a94e-706e915ee4c6">
+</details>
 
 ### All Products page
+<details>
 
+#### Mobile
+
+
+<img width="572" alt="Screen Shot 2023-08-09 at 19 03 19" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/1e2f7b73-8bbe-4b84-a796-06244adc7d43">
+
+#### Desktop
 * Desktop devices
 <img width="574" alt="Screen Shot 2023-08-09 at 19 03 58" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/15498d4d-30b8-4371-bacd-1e5fe66b2331">
 
-
-* Mobile devices
-<img width="572" alt="Screen Shot 2023-08-09 at 19 03 19" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/1e2f7b73-8bbe-4b84-a796-06244adc7d43">
-
+</details>
 
 ### Sign up page
-* Desktop devices
-<img width="526" alt="Screen Shot 2023-08-09 at 19 08 32" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/7a03d347-b63e-4b0d-8d4a-47fadfa37a33">
 
-* Mobile devices
+<details>
+
+
+
+
+#### Mobile
+
 <img width="574" alt="Screen Shot 2023-08-09 at 19 07 56" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/59b063ee-9547-4347-b3ef-2c725217c920">
 
 
+#### Desktop
+
+<img width="526" alt="Screen Shot 2023-08-09 at 19 08 32" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/7a03d347-b63e-4b0d-8d4a-47fadfa37a33">
+
+</details>
+
 ### Login page
 
-* Desktop devices
+
+<details>
+
+#### Mobile
+
+<img width="543" alt="Screen Shot 2023-08-09 at 19 05 12" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/06f1edac-b0bb-4ab8-893f-ab508a8abe39">
+
+#### Desktop
+
 <img width="544" alt="Screen Shot 2023-08-09 at 19 05 52" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/08401279-cfaf-4462-8557-c436a15b3d41">
 
 
-* Mobile devices
-<img width="543" alt="Screen Shot 2023-08-09 at 19 05 12" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/06f1edac-b0bb-4ab8-893f-ab508a8abe39">
-
+</details>
 
 ### Contact Us
 
+
+<details>
+
+#### Mobile
+
+#### Desktop
 * Desktop devices
 <img width="525" alt="Screen Shot 2023-08-09 at 19 09 53" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/78fc5d4e-3842-4b3e-b100-ad40f32b1516">
 
 
-* Mobile devices
-* * Mobile devices
-
+</details>
 
 ### Product Management
 
-* Desktop devices
- <img width="550" alt="Screen Shot 2023-08-09 at 19 12 47" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/1b523b69-6581-4c7e-b809-3a7c3b90e880">
+<details>
 
 
+#### Mobile
 
-* Mobile devices
 <img width="508" alt="Screen Shot 2023-08-09 at 19 12 16" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/900f7cdf-bf39-4b65-9c92-6353f88e1e53">
 
+#### Desktop
+
+ <img width="550" alt="Screen Shot 2023-08-09 at 19 12 47" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/1b523b69-6581-4c7e-b809-3a7c3b90e880">
+
+</details>
+
+### Log out page
+
+<details>
+
+#### Mobile
+<img width="570" alt="Screen Shot 2023-08-09 at 19 14 28" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/2d2ec75a-f8f2-4c88-bf74-e21afcfcc863">
+
+#### Desktop
+
+<img width="525" alt="Screen Shot 2023-08-09 at 19 13 41" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/3d9034e4-cd14-4070-8b35-628aae74cc4a">
+
+</details>
+
+<details>
+
+### Log out page
+
+
+#### Mobile
+<img width="570" alt="Screen Shot 2023-08-09 at 19 14 28" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/2d2ec75a-f8f2-4c88-bf74-e21afcfcc863">
+
+#### Desktop
+* Desktop devices
+<img width="525" alt="Screen Shot 2023-08-09 at 19 13 41" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/3d9034e4-cd14-4070-8b35-628aae74cc4a">
+
+</details>
 
 ### 404 error page
 
-* Desktop devices
+<details>
 
 
-* Mobile devics
+#### Mobile
+
+#### Desktop
 
 
-### Log out page
-
-* Desktop devices
-<img width="525" alt="Screen Shot 2023-08-09 at 19 13 41" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/3d9034e4-cd14-4070-8b35-628aae74cc4a">
-
-
-* Mobile devices
-
-<img width="570" alt="Screen Shot 2023-08-09 at 19 14 28" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/2d2ec75a-f8f2-4c88-bf74-e21afcfcc863">
-
-### Log out page
-
-* Desktop devices
-<img width="525" alt="Screen Shot 2023-08-09 at 19 13 41" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/3d9034e4-cd14-4070-8b35-628aae74cc4a">
-
-
-* Mobile devices
-
-<img width="570" alt="Screen Shot 2023-08-09 at 19 14 28" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/2d2ec75a-f8f2-4c88-bf74-e21afcfcc863">
+</details>
 
 ### My Profile
 
-* Desktop devices
+<details>
 
 
+#### Mobile
 
-* Mobile devices
+#### Desktop
+
+
+</details>
 
 ### Clothing
 
-* Desktop devices
+<details>
 
 
+#### Mobile
 
-* Mobile devices
+#### Desktop
+
+
+</details>
 
 ### Homewear
 
-* Desktop devices
+<details>
 
 
+#### Mobile
 
-* Mobile devices
+#### Desktop
+
+
+</details>
 
 ### Special Offer's
 
-* Desktop devices
+<details>
 
 
+#### Mobile
 
-* Mobile devices
+#### Desktop
+
+
+</details>
 
 ### Wishlist
 
-* Desktop devices
+<details>
 
 
+#### Mobile
 
-* Mobile devices
+#### Desktop
+
+
+</details>
 
 ### Shopping bag
 
-* Desktop devices
+<details>
 
 
+#### Mobile
 
-* Mobile devices
+#### Desktop
+
+
+</details>
 
 ### SHopping bag (items in bag)
 
-* Desktop devices
+<details>
 
 
+#### Mobile
 
-* Mobile devices
+#### Desktop
+
+
+</details>
 
 ### Blog
 
-* Desktop devices
+<details>
 
 
+#### Mobile
 
-* Mobile devices
+#### Desktop
+
+
+</details>
+
+<details>
+
+
+#### Mobile
+
+#### Desktop
+
+
+</details>
 
 
