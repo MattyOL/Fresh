@@ -1,14 +1,12 @@
 # Fresh|vintage-Project.5
+
+
+
 <img width="1336" alt="Screen Shot 2023-08-10 at 15 19 01" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/f101ea6c-ebf2-4d39-b4cb-d92a4e242fd1">
 
+
+
 The fresh|Vintage website operates as an eco-conscious platform, dedicated to promoting sustainability by reusing and reducing the consumption of vintage clothing, furniture, and accessories. The core mission is to offer timeless pieces that are both stylish and budget-friendly. The administrative functions empower the admin to manage the product inventory by adding, editing, and removing items. On the user side, an array of features enriches the shopping experience, allowing them to create wishlists, purchase products, manage wishlist items, and establish communication with the admin through email correspondence. This comprehensive approach fosters a sense of community engagement and conscious consumerism.
-
-
-
-
-
-
-
 
 
 
@@ -19,13 +17,17 @@ The fresh|Vintage website operates as an eco-conscious platform, dedicated to pr
 I wanted to keep the colour scheme quite simpley so its easy for the user to navigate and not get distracted while on the website The colour i used is 
 
 ### Colour Scheme 
-<img width="59" alt="Screen Shot 2023-08-08 at 13 06 07" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/cd934995-bd94-4357-a404-7f3ec267d5e7">
 
-<img width="59" alt="Screen Shot 2023-08-08 at 13 06 19" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/e1af65ad-f26c-40d1-b8ba-97921047d07b">
-<img width="42" alt="Screen Shot 2023-08-08 at 13 07 00" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/e6f300dc-cfed-4ced-8864-bfded3ff1a0d">
+There are the main colours used in the site.
+<img width="167" alt="Screen Shot 2023-08-10 at 15 37 43" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/f6297536-9e44-466e-8373-f8ebf0a25b88">
+
 
 
 ### Typography
+
+The predominant font utilized across the entire website was 'Lato'.
+
+ font-family: 'Lato';
 
 # Wireframe's
 
