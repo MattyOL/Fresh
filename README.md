@@ -391,7 +391,9 @@ The User can Add to bag where they can finish of the requirments to get there pr
 
 * ### Return Item form
   * We provide the option for refunds and/or exchanges within the initial 30 days of your purchase. If this 30-day window has lapsed since your purchase, regrettably, we cannot offer any form of refund or exchange. It's imperative that the item remains unused and is returned in the same condition it was received for the eligibility of a refund or exchange.
-
+ 
+  * ### Trading platform for clothing/furniture 
+  * I intend to return and establish a platform where individuals can engage in clothing and furniture trading among themselves. Additionally, they will have the option to donate items they no longer require, allowing others to benefit from them in the future. This approach aims to contribute to a more sustainable future by diminishing the accumulation of unused items.
 ## Search Engine Optimization 
 
  #  Facebook business page
