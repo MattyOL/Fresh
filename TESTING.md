@@ -119,8 +119,6 @@ I done some test's in the test.py file using the terminal to get results using t
    * Expected:to be brought to page, form filled out, submit.
    * Result: pass.
 
-
-
 6. * Test:Search bar searches products.
    * Expected: To be displayed with products.
    * Result: pass.
@@ -140,15 +138,17 @@ I done some test's in the test.py file using the terminal to get results using t
 10. * Test: When user clicks a blog post.
     * Expected: To be brought into the posts info.
     * Results: pass.
-11. *
+11. * Test: User clicks add to wishlist
+    * Expected: Product to be added to wishlist
+    * Results: Pass
 
-12. * 
+12. * Test: Added from wishlist to bag 
+    * Expected: Product to be added to bag for checkout
+    * Results: Pass
 
-13. * 
-
-13. * Test: likes/comments on posts.
-    * Expected: The admin has to verify like/comments on post when submitted.
-    * Results: pass.
+13. * Test: fill out checkout form 
+    * Expected: form to be filled and submited without any issues 
+    * Results: Pass
 
 14. * Test: websites name is clickable.
     * Expected: to refresh to home-page.
@@ -165,6 +165,44 @@ I done some test's in the test.py file using the terminal to get results using t
 17. * Test: When a user is not signed in can they view the contact/wishlist/ form. 
     * Expected: Not to be able to see the contact/add recipe form.
     * Results: pass.
+    
+18. * Test: User clicks add to wishlist
+    * Expected: Product to be added to wishlist
+    * Results: Pass
+      
+19. * Test: User clicks add to wishlist
+    * Expected: Product to be added to wishlist
+    * Results: Pass
+      
+20. * Test: User should be giving feedbag for item added or removed 
+    * Expected: to be added or removed from bag with feedback 
+    * Results: Pass
+      
+21. * Test: User when sumbits email to newsletter
+    * Expected: Mailchimp contacts should receive a new subscriber
+    * Results: Pass
+    
+22. * Test: Shop now button on homepage
+    * Expected: brought to the products page for user to thrift
+    * Results: Pass
+   
+23. * Test: User when sumbits email to newsletter
+    * Expected: Mailchimp contacts should receive a new subscriber
+    * Results: Pass
+
+24. * Test:  All nav elements bring you to the correct page 
+    * Expected: to be brought to the correct page
+    * Results: Pass
+   
+25. * Test: Product management 
+    * Expected: Admin can edit delete add a product 
+    * Results: Pass
+   
+26. * Test: user can edit ther profile to update there account 
+    * Expected: emaill address name number to be updated when done so by user 
+    * Results: Pass
+     
+
 ## linter pylint 
 I used linter pylint to test the python code.
 * No major issues to be found.
