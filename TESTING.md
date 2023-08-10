@@ -96,7 +96,7 @@ I have used the recommended [CI Python Linter](https://pep8ci.herokuapp.com/#) t
 
 
 ## tests.py 
-I done some test's in the test.py file using the terminal to get results using the 
+I done some test's in the test.py in( home app / products app / profiles app test.py file) using the terminal to get results using the 
 * python3 manage.py test / command 
  
 
