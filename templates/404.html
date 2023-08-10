@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block page_header %}
+    <div class="header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+<!-- 404 page  -->
+<section>
+    <div class="wrapper">
+        <div class="content">
+            <div class="main">
+                <h2>404</h2>
+            </div>
+            <div class="text">
+                <p>OOPS! <br>PAGE NOT FOUND</p>
+                <span>Sorry the recipe you are trying to search does not exist!</span>
+                <button><a class="btn" aria-current="page" href="{% url 'home' %}">Go Back</a></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+{% endblock %}

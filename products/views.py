@@ -1,9 +1,9 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404
+from django.shortcuts import render, redirect, reverse, get_object_or_404, redirect
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
-from .models import Product, Category
+from .models import Product, Category, Review
 from .forms import ProductForm
 from wishlist.models import Wishlist
 
@@ -137,3 +137,41 @@ def delete_product(request, product_id):
     product.delete()
     messages.success(request, 'Product deleted!')
     return redirect(reverse('products'))
+
+
+def product_review(request, slug):
+    product = get_object_or_404(Product, slug=slug)
+
+    if request.method == 'POST':
+        rating = request.POST.get('rating', 3)
+        content = request.POST.get('content', '')
+
+        if content:
+            reviews = Review.objects.filter(created_by=request.user, product=product)
+
+            if reviews.count() > 0:
+                review = reviews.first()
+                review.rating = rating
+                review.content = content
+                review.save()
+            else:
+                review = Review.objects.create(
+                    product=product,
+                    rating=rating,
+                    content=content,
+                    created_by=request.user
+                )
+
+            
+
+    return render(request, 'product/product_detail.html', {'product': product})
+
+
+
+def handler404(request, exception):
+    """ Error Handler 404 - Page Not Found """
+    return render(request, "errors/404.html", status=404)
+
+
+def error404_page(request):
+    return render(request, 'templates/404.html')
