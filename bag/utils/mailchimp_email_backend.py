@@ -1,6 +1,5 @@
 
 from django.core.mail.backends.base import BaseEmailBackend
-from mailchimp_marketing import Client
 import json
 
 class MailchimpEmailBackend(BaseEmailBackend):
