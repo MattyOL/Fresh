@@ -700,10 +700,15 @@ Overall, this B2C e-commerce business is laying the groundwork for growth and cu
 
 ## Agile Development Process
 
+
 ### GitHub Projects
 This project utilized GitHub Projects as an Agile tool. Although not a dedicated tool, it was customized with appropriate tags, project creation, and issue assignments to fit the project's needs.
 
 The tool was used to visualize the development progress of the project by mapping user stories onto a basic Kanban board. It enabled me to identify the work backlog and to move tasks across the board as they were being worked on, tested, and signed off upon completion.
+
+
+<img width="1088" alt="Screen Shot 2023-08-10 at 22 08 10" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/93384394-d304-413e-a64e-b56cd38af839">
+
 
 
 
