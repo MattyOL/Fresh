@@ -20,55 +20,194 @@ I wanted to keep the colour scheme quite simpley so its easy for the user to nav
 
 ### Typography
 
-
 # Wireframe's
 
 To have a better plan for developing my website, I utilized Justinmind.com to produce wireframes that serve as a guide on how I want the website to be created
 
-## Home-Page 
-<img width="850" alt="Screen Shot 2023-07-31 at 15 47 03" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/a188c2b4-d291-47e0-a08e-64f2ff1bed5d">
+<details>
+<summary>Click to View Home Page wireframes</summary>
 
-## Footer 
-<img width="856" alt="Screen Shot 2023-07-31 at 15 49 07" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/7792ed85-1a94-49ea-8d59-1ffd7e3005fd">
-
-
+#### Mobile
+[screenshot]()
 
 
-## Products page 
-<img width="852" alt="Screen Shot 2023-07-31 at 15 47 37" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/fcdc8519-7501-4dab-840e-091930f46a94">
+#### Desktop
+![screenshot](<img width="850" alt="Screen Shot 2023-07-31 at 15 47 03" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/a188c2b4-d291-47e0-a08e-64f2ff1bed5d">)
+
+</details>
+
+<details>
+<summary>Click to View Footer wireframes</summary>
+
+#### Mobile
+[screenshot]()
+
+
+#### Desktop
+[screenshot](<img width="856" alt="Screen Shot 2023-07-31 at 15 49 07" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/7792ed85-1a94-49ea-8d59-1ffd7e3005fd">)
+
+</details>
+
+<details>
+<summary>Click to View Products page wireframes</summary>
+
+#### Mobile
+[screenshot]()
+
+
+#### Desktop
+[screenshot](<img width="852" alt="Screen Shot 2023-07-31 at 15 47 37" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/fcdc8519-7501-4dab-840e-091930f46a94">)
+
+</details>
+
+<details>
+<summary>Click to View Blog page wireframes</summary>
+
+#### Mobile
+[screenshot]()
+
+
+#### Desktop
+[screenshot](<img width="856" alt="Screen Shot 2023-07-31 at 15 49 17" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/f319beec-e820-42b8-9516-df13f0202c1f">)
+
+</details>
+
+<details>
+<summary>Click to View  Sign-Up-Page wireframes</summary>
+
+#### Mobile
+[screenshot]()
+
+
+#### Desktop
+[screenshot](<img width="849" alt="Screen Shot 2023-07-31 at 15 48 23" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/704206ac-89d1-4718-8b66-af462aa76fdb">)
+
+</details>
+
+<details>
+<summary>Click to View My profile wireframes</summary>
+
+#### Mobile
+[screenshot]()
+
+
+#### Desktop
+[screenshot](<img width="846" alt="Screen Shot 2023-07-31 at 15 48 58" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/32dea98a-b401-4d09-9113-db4aa16d977f">)
+
+</details>
+
+<details>
+<summary>Click to View  Product Management wireframes</summary>
+
+#### Mobile
+[screenshot]()
+
+
+#### Desktop
+[screenshot](<img width="848" alt="Screen Shot 2023-07-31 at 15 48 42" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/332bb3cb-e6e9-4c17-aebf-b4f7fc176db5">)
+
+</details>
+
+<details>
+<summary>Click to View login-Page wireframes</summary>
+
+#### Mobile
+[screenshot]()
+
+
+#### Desktop
+[screenshot](<img width="850" alt="Screen Shot 2023-07-31 at 15 48 33" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/f1c65901-d08b-4891-b4ea-1cdd42228c67">)
+
+</details>
+
+<details>
+<summary>Click to View  wireframes</summary>
+
+#### Mobile
+[screenshot]()
+
+
+#### Desktop
+[screenshot]()
+
+</details>
+<details>
+<summary>Click to View  wireframes</summary>
+
+#### Mobile
+[screenshot]()
+
+
+#### Desktop
+[screenshot]()
+
+</details>
+
+<details>
+ 
+<summary>Click to View  wireframes</summary>
+
+#### Mobile
+[screenshot]()
+
+
+#### Desktop
+[screenshot]()
+
+</details>
+
+<details>
+<summary>Click to View Wishlist wireframes</summary>
+
+#### Mobile
+[screenshot]()
+
+
+#### Desktop
+[screenshot]()
+
+</details>
+
+<details>
+<summary>Click to View Contact-Page wireframes</summary>
+
+#### Mobile
+![screenshot]()
+
+
+#### Desktop
+![screenshot](<img width="852" alt="Screen Shot 2023-07-31 at 15 48 11" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/8adbafa4-209b-44ee-94a1-6dad6cf00b92">)
+
+</details>
+
+<details>
+<summary>Click to View 404-Error-Page wireframes</summary>
+
+#### Mobile
+[screenshot]()
+
+
+#### Desktop
+[screenshot]()
+
+</details>
+
+<details>
+<summary>Click to View Contact Us wireframes</summary>
+
+#### Mobile
+[screenshot]()
+
+
+#### Desktop
+[screenshot]()
+
+</details>
 
 
 
-## Blog Page
-<img width="856" alt="Screen Shot 2023-07-31 at 15 49 17" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/f319beec-e820-42b8-9516-df13f0202c1f">
 
 
-
-## Sign-Up-Page
-<img width="849" alt="Screen Shot 2023-07-31 at 15 48 23" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/704206ac-89d1-4718-8b66-af462aa76fdb">
-
-## My profile 
-<img width="846" alt="Screen Shot 2023-07-31 at 15 48 58" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/32dea98a-b401-4d09-9113-db4aa16d977f">
-
-## Product Management 
-<img width="848" alt="Screen Shot 2023-07-31 at 15 48 42" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/332bb3cb-e6e9-4c17-aebf-b4f7fc176db5">
-
-
-
-
-## login-Page
-<img width="850" alt="Screen Shot 2023-07-31 at 15 48 33" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/f1c65901-d08b-4891-b4ea-1cdd42228c67">
-
-
-
- ## Contact-Page
-<img width="852" alt="Screen Shot 2023-07-31 at 15 48 11" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/8adbafa4-209b-44ee-94a1-6dad6cf00b92">
-
-
-
-
-
-## 404-Error-Page 
 
 
 
