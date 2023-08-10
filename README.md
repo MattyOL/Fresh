@@ -1,4 +1,11 @@
 # Fresh|vintage-Project.5
+<img width="1336" alt="Screen Shot 2023-08-10 at 15 19 01" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/f101ea6c-ebf2-4d39-b4cb-d92a4e242fd1">
+
+The fresh|Vintage website operates as an eco-conscious platform, dedicated to promoting sustainability by reusing and reducing the consumption of vintage clothing, furniture, and accessories. The core mission is to offer timeless pieces that are both stylish and budget-friendly. The administrative functions empower the admin to manage the product inventory by adding, editing, and removing items. On the user side, an array of features enriches the shopping experience, allowing them to create wishlists, purchase products, manage wishlist items, and establish communication with the admin through email correspondence. This comprehensive approach fosters a sense of community engagement and conscious consumerism.
+
+
+
+
 
 
 
