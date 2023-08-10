@@ -386,8 +386,26 @@ The User can Add to bag where they can finish of the requirments to get there pr
 
 ## Future Features's
 
-* ### Discount
-  * In the future, I plan to implement a feature that enables me to generate discount codes. This will allow users to enjoy a 10% or 20% reduction in the prices of our offered products. These discount codes could be distributed through the newsletter using Mailchimp or be part of promotions on our marketing Facebook page. They might also be extended to new users joining the site or as a reward for our long-term customers.
+ ### Discount
+ 
+* In the future, I plan to implement a feature that enables me to generate discount codes. This will allow users to enjoy a 10% or 20% reduction in the prices of our offered products. These discount codes could be distributed through the newsletter using Mailchimp or be part of promotions on our marketing Facebook page. They might also be extended to new users joining the site or as a reward for our long-term customers.
+ 
+* During the project's development, I made attempts to integrate this feature using Mailchimp. However, I encountered persistent issues with the JavaScript code. I've documented the code in my commits, and I plan to revisit it when I have a more substantial amount of time available. This feature holds a high priority as it directly contributes to retaining customer engagement and encouraging consistent visits to the website.
+
+Upon reassessing my time allocation, I realized that resolving these challenges was consuming a significant portion of my schedule. Consequently, I opted to explore alternative feature ideas that could be implemented more efficiently. I've compiled screenshots of the code I attempted to incorporate, which you can find below for reference.
+
+<details>
+<summary>Click to View Home Page wireframes</summary>
+
+
+#### Code
+(<img width="909" alt="Screen Shot 2023-08-10 at 13 47 56" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/b55d856a-dd55-4306-8e4b-b355c51ce500">)
+
+(<img width="479" alt="Screen Shot 2023-08-10 at 13 47 32" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/6a3197ca-2e63-4e6e-9349-8bbf2ff7e2b1">)
+
+(<img width="696" alt="Screen Shot 2023-08-10 at 13 48 15" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/b880468e-bd52-4d8d-831a-59bd73a8dddd">)
+
+</details>
 
 * ### Return Item form
   * We provide the option for refunds and/or exchanges within the initial 30 days of your purchase. If this 30-day window has lapsed since your purchase, regrettably, we cannot offer any form of refund or exchange. It's imperative that the item remains unused and is returned in the same condition it was received for the eligibility of a refund or exchange.
