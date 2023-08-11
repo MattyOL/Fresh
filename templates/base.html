@@ -361,73 +361,7 @@
 
   //</script>
 
-<script>
-  $(document).ready(function () {
-      $("#mc-embedded-subscribe-form").submit(function (e) {
-          e.preventDefault();
-          var form = $(this);
-          var url = form.attr("action");
-          var data = form.serialize();
 
-
-          $.ajax({
-              type: "POST",
-              url: url,
-              
-              data: data,
-              headers: {'Authorization': 'apikey ${api_key}'},
-              success: function (response) {
-                  $("#message").text(response.message);
-                   
-                      // If a discount code is generated, display it on the UI or perform other actions
-                      console.log("Generated Discount Code: " + response.discount_code);
-                      sendEmailWithDiscount(response.discount_code);  // Call function to send email with the discount code
-                  
-              },
-              error: function (response) {
-                  $("#message").text("An error occurred. Please try again later.");
-              },
-          });
-      });
-
-      function sendEmailWithDiscount(discountCode) {
-          // Replace the following line with your email sending logic
-          // This is just a sample to demonstrate the concept
-          $.ajax({
-              type: "POST",
-              url: "view_bag:send_email_with_discount",  // Create a new view to handle the email sending
-              data: {'discount_code': discountCode},
-              success: function (response) {
-                  console.log("Email sent successfully!");
-              },
-              error: function (response) {
-                  console.error("Error sending email.");
-              },
-          });
-      }
-  });
-</script>
-
-<script>
-  // Checks to see whether newsletter subscription was successful
-  $(document).on("DOMNodeInserted", function (e) {
-      if (e.target.id === 'mce-success-message' && e.target.innerHTML === "Thank you for subscribing!") {
-          // Send an AJAX request to trigger the email sending
-          $.ajax({
-              type: "POST",
-              url: "{% url 'send_discount_email' %}",  // Replace with your Django view URL
-              data: {},
-              success: function (response) {
-                  console.log("Email sent successfully!");
-              },
-              error: function (response) {
-                  console.error("Error sending email.");
-              },
-          });
-      }
-  });
-</script>
-  
 
 
 
