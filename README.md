@@ -29,6 +29,61 @@ The predominant font utilized across the entire website was 'Lato'.
 
  font-family: 'Lato';
 
+|   EPIC                                |ID|                                User Story                                                   |
+| :-------------------------------------|--|:------------------------------------------------------------------------------------------- |
+|**VIEWING AND NAVIGATION**             |  ||
+|                                       |1A| As a user, I want to understand the purpose of the website from the first interaction with it content |             
+|                                       |1B| As a user, I want to be able to easily use the site functionalities on all viewports, so I can shop the products from any device|
+|                                       |1C| As a user, I want to see a footer with relevant information and documents|
+|                                       |1D| As a user, I want to be able to access a navigation menu at any time, so I can easily navigate through the website content|
+|                                       |1E| As a user, I want to be able search through site products by entering a key word|
+|**USER REGISTRATION/AUTENTHICATION**   |  || 
+|                                       |2A| As a user, I want to be able to register on the website|
+|                                       |2B| As a user, I want to be able to confirm my account with an email|
+|                                       |2C| As a user/admin, I want to be able to authenticate using only email and password|
+|                                       |2D| As a user, I want to be able to reset my password in case I forgot it|
+|                                       |2E| As a user/admin, I want to be able to log out at any time|
+|**PRODUCTS**                           |  ||
+|                                       |3A|  As a user, I want to see a catalog with all the products and also grouped by categories|
+|                                       |3B| US - As a user, I want to be able to apply filters and to sort the listed products, so I can easily find the ones I am interested to buy|
+|                                       |3C| As a user, I want to be able to see the stock availability for low stock products|
+|                                       |3D| As a user, I want to see a page with full specifications for every product, so I can easily decide which one I would want to buy|
+|                                       |3E| As a user, I want to be able to add any product to the shopping bag in a selected quantity|
+|                                       |3F| As an admin, I want to be able to edit product details|
+|                                       |3G| As an admin, I want to be able to delete products from the catalog, so it reflect the existent stock|
+|                                       |3H| As an admin, I want to be able to add new products to catalog, so it reflects the existent stock|
+|**BAG**                                |  ||
+|                                       |6A| As a user, I want to see all the products I added to the shopping bag|
+|                                       |6B| As a user, I want to be able to add/remove from the wishlist any product from the shopping bag|
+|                                       |6C| As a user, I want to see all the details about the price for the order|
+|                                       |6D| As a user, I want to be able to remove a product from the shopping bag|
+|                                       |6E| As a user, I want to be able to edit the quantity of the products|
+|                                       |6F| As a user, I want that all the discounts announced on the website to be applied properly|
+|                                       |6G| As a user, I want to be able to add my vouchers to the order|
+|**CHECKOUT**                           |  ||
+|                                       |7A| As a logged-in user, I want to be able to see and edit my default delivery details for the order|
+|                                       |7B| As a user, I want to see the order summary with all the price details|
+|                                       |7C| As a user, I want to be able to add my delivery details for the order|
+|                                       |7D|  As a user I want to be able to introduce my card details for payment|
+|**USER PROFILE**                       |  ||
+|                                       |8A| As a logged in user, I want to be able to see and edit my delivery details|
+|                                       |8B| As a logged-in user, I want to be able to see my orders history|
+|                                       |8C| As a logged-in user, I want to see the full details for every order I placed on the website|
+|**CONTACT**                |  ||
+|                                       |9A| As an admin, I want to be able to see all messages sent from user|
+|                                       |9B| As an use, I want to be able to send a email to the website|
+|**NEWSLETTER**                         |  ||
+|                                       |10A|As a user, I want to be able to subscribe to a newsletter, so I can always be up to date with the latest promotions|
+|**REVIEWS**                            |  ||
+|                                       |4A|  As a user, I want to be able to see all the reviews added for any product, so I can easily make an opinion about its quality|
+|                                       |4B| As a logged in user, I want to be able to add a review for any product I want|
+|                                       |4C| As a user, I want to be able to see a general review of every product|
+|**WISHLIST**                           |  ||
+|                                       |5A| As a logged-in user, I want to be able to add/remove any product from the Wishlist|
+|                                       |5B| As a logged-in user, I want to see all the products added to Wishlist|
+|                                       |5C| As a logged-in user, I want to be able to add products to the shopping bag from the Wishlist page|
+|                                       |5D| As a user, I want to see how many times a product has been added to Wishlist by all the users|        
+
 # Wireframe's
 
 To have a better plan for developing my website, I utilized Justinmind.com to produce wireframes that serve as a guide on how I want the website to be created
