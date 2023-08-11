@@ -587,6 +587,10 @@ In instances where the user clicks the search button without inputting any text,
 
 (<img width="696" alt="Screen Shot 2023-08-10 at 13 48 15" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/b880468e-bd52-4d8d-831a-59bd73a8dddd">)
 
+<img width="748" alt="Screen Shot 2023-08-11 at 13 25 35" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/f9b9dc59-3e72-4a6f-a9ef-f02c9c114c55">
+
+<img width="778" alt="Screen Shot 2023-08-11 at 13 26 36" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/14972851-fdf1-4b22-a73a-41b6df3e0378">
+
 </details>
 
  ### Return Item form
