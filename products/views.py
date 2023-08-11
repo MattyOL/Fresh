@@ -139,8 +139,8 @@ def delete_product(request, product_id):
     return redirect(reverse('products'))
 
 
-def product_review(request, slug):
-    product = get_object_or_404(Product, slug=slug)
+def product_review(request, product_id):
+    product = get_object_or_404(Product, pk=product_id)
 
     if request.method == 'POST':
         rating = request.POST.get('rating', 3)
@@ -162,9 +162,9 @@ def product_review(request, slug):
                     created_by=request.user
                 )
 
-            
+        return redirect(reverse('product_detail', args=[product.id]))
 
-    return render(request, 'product/product_detail.html', {'product': product})
+    
 
 
 

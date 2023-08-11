@@ -102,44 +102,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-full mt-6">
-                                <h2 class="text-bl">Reviews</h2>
-                        
-                                {% if request.user.is_authenticated %}
-                                    <form method="post" action="{% url 'product_review' product.id  %}" class="mt-6 mb-6 p-6 bg-gray-100 rounded-xl text-bl">
-                                        {% csrf_token %}
-                        
-                                        <div>
-                                            <label class="text-bl">Rating</label><br>
-                                            <select name="rating">
-                                                <option value="1">1</option>
-                                                <option value="2">2</option>
-                                                <option value="3" selected>3</option>
-                                                <option value="4">4</option>
-                                                <option value="5">5</option>
-                                                <option value="6">6</option>
-                                            </select>
-                                        </div>
-                        
-                                        <div class="text-bl">
-                                            <label class="text-bl">Comment</label><br>
-                                            <textarea name="content"></textarea>
-                                        </div>
-                        
-                                        <div class="text-bl">
-                                            <button type="submit">Submit</button>
-                                        </div>
-                                    </form>
-                                {% endif %}
-                        
-                                {% for review in product.reviews.all %}
-                                    <div id=" reviews" class="px-4 py-6 bg-gray-100 rounded-xl mb-4 text-bl">
-                                        <strong>Rating:</strong> {{ review.rating }}/6<br>
-                                        <strong>Date:</strong> {{ review.created_at|date:"Y-m-d" }}<br>
-                                        <strong>Comment:</strong><br>
-                                        {{ review.content }}
-                                    </div>
-                                {% endfor %}
 
                             <div class="col{% if s %}-12 mt-2{% endif %}">
                                 <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-5">
@@ -154,6 +116,44 @@
                             {% endwith %}
                         </div>
                     </form>
+                    <div class="w-full mt-6">
+                        <h2 class="text-bl">Reviews</h2>
+                
+                        {% if request.user.is_authenticated %}
+                            <form method="post" action="{% url 'product_review' product.id  %}" class="mt-6 mb-6 p-6 bg-gray-100 rounded-xl text-bl">
+                                {% csrf_token %}
+                
+                                <div>
+                                    <label class="text-bl">Rating</label><br>
+                                    <select name="rating">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3" selected>3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                    </select>
+                                </div>
+                
+                                <div class="text-bl">
+                                    <label class="text-bl">Comment</label><br>
+                                    <textarea name="content"></textarea>
+                                </div>
+                
+                                <div class="text-bl">
+                                    <button type="submit">Submit</button>
+                                </div>
+                            </form>
+                        {% endif %}
+                
+                        {% for review in product.reviews.all %}
+                            <div id=" reviews" class="px-4 py-6 bg-gray-100 rounded-xl mb-4 text-bl">
+                                <strong>Rating:</strong> {{ review.rating }}/6<br>
+                                <strong>Date:</strong> {{ review.created_at|date:"Y-m-d" }}<br>
+                                <strong>Comment:</strong><br>
+                                {{ review.content }}
+                            </div>
+                        {% endfor %}
                 </div>
             </div>
         </div>
