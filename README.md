@@ -965,15 +965,6 @@ You can clone the repository by following these steps:
 7. git clone 
 8. Press Enter to create your local clone.
 
-## Forking
-
-To avoid affecting the original owner's repository, a copy of the original repository is made on our GitHub account by forking the GitHub Repository. This enables us to view and/or make changes without modifying the original repository. The following steps can be used to fork this repository:
-
- 1. Log in to GitHub and locate the repository 
-
- 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-
- 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
 # credits 
  * I used code institutes project 5 Boutique Ado E commerence tutorial to get me up and running with a template so i can then add new features to Create a fully functionaly website applcation. 
