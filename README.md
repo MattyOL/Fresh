@@ -120,7 +120,8 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
 
 
 #### Desktop
-<img width="852" alt="Screen Shot 2023-07-31 at 15 47 37" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/fcdc8519-7501-4dab-840e-091930f46a94">
+<img width="840" alt="Screen Shot 2023-08-12 at 11 55 39" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/5c539713-30b8-4b08-99fc-137c3a4d7928">
+
 
 </details>
 
@@ -135,7 +136,16 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
 </details>
 
 <details>
-<summary>Click to View  Sign-Up-Page wireframes</summary>
+<summary>Click to View login-Page wireframes</summary>
+
+
+#### Desktop
+<img width="850" alt="Screen Shot 2023-07-31 at 15 48 33" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/f1c65901-d08b-4891-b4ea-1cdd42228c67">
+
+</details>
+
+<details>
+<summary>Click to View  Sign-out-Page wireframes</summary>
 
 
 #### Desktop
@@ -165,43 +175,7 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
 
 </details>
 
-<details>
-<summary>Click to View login-Page wireframes</summary>
 
-
-#### Desktop
-<img width="850" alt="Screen Shot 2023-07-31 at 15 48 33" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/f1c65901-d08b-4891-b4ea-1cdd42228c67">
-
-</details>
-
-<details>
-<summary>Click to View  wireframes</summary>
-
-
-#### Desktop
-[screenshot]()
-
-</details>
-<details>
-<summary>Click to View  wireframes</summary>
-
-
-
-#### Desktop
-[screenshot]()
-
-</details>
-
-<details>
- 
-<summary>Click to View  wireframes</summary>
-
-
-
-#### Desktop
-[screenshot]()
-
-</details>
 
 <details>
 <summary>Click to View Wishlist wireframes</summary>
@@ -218,7 +192,8 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
 
 
 #### Desktop
-<img width="852" alt="Screen Shot 2023-07-31 at 15 48 11" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/8adbafa4-209b-44ee-94a1-6dad6cf00b92">
+<img width="847" alt="Screen Shot 2023-08-12 at 11 53 07" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/d7ed60f4-116c-43e9-97b5-7eb2d246adde">
+
 
 </details>
 
@@ -228,7 +203,8 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
 
 
 #### Desktop
-[screenshot]()
+
+<img width="845" alt="Screen Shot 2023-08-12 at 11 39 35" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/a85990fe-fc9e-4fd3-8b64-4358a570562d">
 
 </details>
 
