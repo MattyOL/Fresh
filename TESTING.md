@@ -12,8 +12,9 @@ In order to properly validate my HTML pages with Jinja syntax for authenticated 
 | Page | Screenshot | Results |
 | --- | --- | --- |
 | Home |  <img width="1410" alt="Screen Shot 2023-08-12 at 13 54 14" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/9a40bec2-a8ae-4c11-960a-b766d357c749">| Pass: No Errors |
-| Sign Up |    | Pass: No Errors |
-| Sign In |  | Pass: No Errors|
+| Sign Up |  <img width="1384" alt="Screen Shot 2023-08-12 at 15 12 33" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/8bb688ba-dabb-42d6-af19-7fd0f9e73a7a"> | Pass: No Errors |
+| Sign In | <img width="1354" alt="Screen Shot 2023-08-12 at 15 10 33" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/87762e0f-ec3e-420b-989b-180d9d1c313f"> | Pass: No Errors|
+| Sign Out | <img width="1407" alt="Screen Shot 2023-08-12 at 15 06 48" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/80708ebb-2ee3-4488-90e2-81a4d65d3855"> | Pass: No Errors|
 | All Products |  | Pass: No Errors |
 | Individual Product |  | Pass: No Errors |
 | Contact-us |  | Pass: No Errors |
@@ -25,7 +26,7 @@ In order to properly validate my HTML pages with Jinja syntax for authenticated 
 | Checkout |  | Pass: No Errors |
 | My profile |  | Pass: No Errors |
 | Bag |  | Pass: No Errors |
-| HoMewear|  | Pass: No Errors |
+| Homewear|  | Pass: No Errors |
 | Special offer |  | Pass: No Errors |
 |Clothing |  | Pass: No Errors |
 
