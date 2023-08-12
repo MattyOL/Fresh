@@ -9,25 +9,25 @@ In order to properly validate my HTML pages with Jinja syntax for authenticated 
 * Copy everything, and use the validate by input method.
 * Repeat this process for every page that requires a user to be logged-in/authenticated
 
-| Page | W3C URL | Screenshot | Results |
-| --- | --- | --- | --- |
-| Home | [W3C]() | [Link]) | Pass: No Errors |
-| Sign Up | [W3C]() | [Link]() | Pass: No Errors |
-| Sign In | [W3C]() | [Link]()
-| All Products | [W3C]() | [Link]() | Pass: No Errors |
-| Individual Product | [W3C]() | [Link]() | Pass: No Errors |
-| Contact-us | [W3C]() | [Link]() | Pass: No Errors |
-| Blog | [W3C]() | [Link]() | Pass: No Errors |
-| Blog Post | [W3C]() | [Link]() | Pass: No Errors |
-| WishList | [W3C]() | [Link]() | Pass: No Errors |
-| product Mange | [W3C]() | [Link]() | Pass: No Errors |
-|Inbox | [W3C]() | [Link]() | Pass: No Errors |
-| Checkout | [W3C]() | [Link]() | Pass: No Errors |
-| My profile | [W3C]() | [Link]() | Pass: No Errors |
-| Bag | [W3C]() | [Link]() | Pass: No Errors |
-| Honewear| [W3C]() | [Link]() | Pass: No Errors |
-| Special offer | [W3C]() | [Link]() | Pass: No Errors |
-|Clothing | [W3C]() | [Link]() | Pass: No Errors |
+| Page | Screenshot | Results |
+| --- | --- | --- |
+| Home |  <img width="1410" alt="Screen Shot 2023-08-12 at 13 54 14" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/9a40bec2-a8ae-4c11-960a-b766d357c749">| Pass: No Errors |
+| Sign Up |    | Pass: No Errors |
+| Sign In |  | Pass: No Errors|
+| All Products |  | Pass: No Errors |
+| Individual Product |  | Pass: No Errors |
+| Contact-us |  | Pass: No Errors |
+| Blog |  | Pass: No Errors |
+| Blog Post |  | Pass: No Errors |
+| WishList |  | Pass: No Errors |
+| product Mange |  | Pass: No Errors |
+|Inbox |  | Pass: No Errors |
+| Checkout |  | Pass: No Errors |
+| My profile |  | Pass: No Errors |
+| Bag |  | Pass: No Errors |
+| HoMewear|  | Pass: No Errors |
+| Special offer |  | Pass: No Errors |
+|Clothing |  | Pass: No Errors |
 
 ## Css Testing 
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator/) to validate all of my CSS files in this project.
