@@ -15,17 +15,17 @@ In order to properly validate my HTML pages with Jinja syntax for authenticated 
 | Sign Up |  <img width="1384" alt="Screen Shot 2023-08-12 at 15 12 33" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/8bb688ba-dabb-42d6-af19-7fd0f9e73a7a"> | Pass: No Errors |
 | Sign In | <img width="1354" alt="Screen Shot 2023-08-12 at 15 10 33" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/87762e0f-ec3e-420b-989b-180d9d1c313f"> | Pass: No Errors|
 | Sign Out | <img width="1407" alt="Screen Shot 2023-08-12 at 15 06 48" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/80708ebb-2ee3-4488-90e2-81a4d65d3855"> | Pass: No Errors|
-| All Products |  | Pass: No Errors |
+| All Products | <img width="1243" alt="Screen Shot 2023-08-12 at 17 32 37" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/72292a68-e975-4b79-a0e1-df4cd5a92cb7"> | Pass: No Errors |
 | Individual Product |  | Pass: No Errors |
 | Contact-us |  | Pass: No Errors |
-| Blog |  | Pass: No Errors |
-| Blog Post |  | Pass: No Errors |
+| Blog | <img width="1354" alt="Screen Shot 2023-08-12 at 15 10 33" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/e3b17ed4-e28a-4586-82b1-00895b5e387d"> | Pass: No Errors |
+| Blog Post | | Pass: No Errors |
 | WishList |  | Pass: No Errors |
 | product Mange |  | Pass: No Errors |
 |Inbox |  | Pass: No Errors |
-| Checkout |  | Pass: No Errors |
-| My profile |  | Pass: No Errors |
-| Bag |  | Pass: No Errors |
+| Checkout |  <img width="1368" alt="Screen Shot 2023-08-13 at 10 49 06" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/92a1560e-456b-4336-9ed1-8c6f3cffbbde">| Pass: No Major Errors |
+| My profile | <img width="1403" alt="Screen Shot 2023-08-13 at 10 50 22" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/d9f509f3-95b1-434c-aa6f-ae485956d013"> | Pass: No Errors |
+| Bag | <img width="1354" alt="Screen Shot 2023-08-12 at 15 10 33" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/1f2ce860-0ecd-4917-ae16-04bffd5c1d27"> | Pass: No Errors |
 | Homewear|  | Pass: No Errors |
 | Special offer |  | Pass: No Errors |
 |Clothing |  | Pass: No Errors |
