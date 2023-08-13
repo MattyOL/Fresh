@@ -11,24 +11,25 @@ In order to properly validate my HTML pages with Jinja syntax for authenticated 
 
 | Page | Screenshot | Results |
 | --- | --- | --- |
-| Home |  <img width="1410" alt="Screen Shot 2023-08-12 at 13 54 14" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/9a40bec2-a8ae-4c11-960a-b766d357c749">| Pass: No Errors |
+| Home/Footer | <img width="1412" alt="Screen Shot 2023-08-13 at 12 32 59" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/15fa4f07-8d05-447f-b153-639474166205">| Pass: No Errors |
 | Sign Up |  <img width="1384" alt="Screen Shot 2023-08-12 at 15 12 33" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/8bb688ba-dabb-42d6-af19-7fd0f9e73a7a"> | Pass: No Errors |
 | Sign In | <img width="1354" alt="Screen Shot 2023-08-12 at 15 10 33" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/87762e0f-ec3e-420b-989b-180d9d1c313f"> | Pass: No Errors|
 | Sign Out | <img width="1407" alt="Screen Shot 2023-08-12 at 15 06 48" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/80708ebb-2ee3-4488-90e2-81a4d65d3855"> | Pass: No Errors|
 | All Products | <img width="1243" alt="Screen Shot 2023-08-12 at 17 32 37" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/72292a68-e975-4b79-a0e1-df4cd5a92cb7"> | Pass: No Errors |
-| Individual Product |  | Pass: No Errors |
-| Contact-us |  | Pass: No Errors |
+| Product Detail | <img width="1413" alt="Screen Shot 2023-08-13 at 11 24 52" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/7cf4a69d-0257-4cde-a21d-1d971e994598"> | Pass: No Errors |
+| Contact-us | <img width="1398" alt="Screen Shot 2023-08-13 at 13 11 01" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/f7b807bc-1fec-4f99-877a-fee8c274a1b8">| Pass: No Errors |
 | Blog | <img width="1354" alt="Screen Shot 2023-08-12 at 15 10 33" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/e3b17ed4-e28a-4586-82b1-00895b5e387d"> | Pass: No Errors |
 | Blog Post | | Pass: No Errors |
 | WishList |  | Pass: No Errors |
-| product Mange |  | Pass: No Errors |
+| product Mange | ![Uploading Screen Shot 2023-08-13 at 11.58.24.png…]() | Pass: No Errors |
 |Inbox |  | Pass: No Errors |
 | Checkout |  <img width="1368" alt="Screen Shot 2023-08-13 at 10 49 06" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/92a1560e-456b-4336-9ed1-8c6f3cffbbde">| Pass: No Major Errors |
 | My profile | <img width="1403" alt="Screen Shot 2023-08-13 at 10 50 22" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/d9f509f3-95b1-434c-aa6f-ae485956d013"> | Pass: No Errors |
 | Bag | <img width="1354" alt="Screen Shot 2023-08-12 at 15 10 33" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/1f2ce860-0ecd-4917-ae16-04bffd5c1d27"> | Pass: No Errors |
-| Homewear|  | Pass: No Errors |
-| Special offer |  | Pass: No Errors |
-|Clothing |  | Pass: No Errors |
+| Homewear| <img width="1392" alt="Screen Shot 2023-08-13 at 13 23 26" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/a1934f17-478e-4586-9bf8-fa2b8907ada4">| Pass: No Errors |
+| Special offer | <img width="1392" alt="Screen Shot 2023-08-13 at 13 23 26" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/0e50972b-6146-4052-b819-dc1f2bdef8d5"> | Pass: No Errors |
+|Clothing |  <img width="1392" alt="Screen Shot 2023-08-13 at 13 23 26" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/8fdc0bce-7c0a-4eaa-9729-c707b8cbda14"> | Pass: No Errors |
+|Product review |  <img width="1436" alt="Screen Shot 2023-08-13 at 22 07 12" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/99e8ce5c-459e-401c-948d-4b631fe71a73">| Pass: No Errors |
 
 ## Css Testing 
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator/) to validate all of my CSS files in this project.
