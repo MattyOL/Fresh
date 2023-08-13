@@ -1,20 +1,20 @@
 User-agent: *
 Disallow: /checkout/
-Disallow: /cart/
+Disallow: /bag/
 Disallow: /account/
 Disallow: /wishlist/
 Disallow: /search/
 
 User-agent: Googlebot
 Disallow: /checkout/
-Disallow: /cart/
+Disallow: /bag/
 Disallow: /account/
 Disallow: /wishlist/
 Disallow: /search/
 
 User-agent: Bingbot
 Disallow: /checkout/
-Disallow: /cart/
+Disallow: /bag/
 Disallow: /account/
 Disallow: /wishlist/
 Disallow: /search/

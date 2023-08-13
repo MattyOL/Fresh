@@ -35,7 +35,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!  #'DEVELOPMENT' in os.environ
 DEBUG = True
 
-ALLOWED_HOSTS = ['8006-mattyol-fresh-wox1tw2jfil.ws-eu103.gitpod.io', 'localhost', 'fresh-p5-3dd3ff854c84.herokuapp.com' ]
+ALLOWED_HOSTS = ['8015-mattyol-fresh-wox1tw2jfil.ws-eu103.gitpod.io', 'localhost', 'fresh-p5-3dd3ff854c84.herokuapp.com' ]
 
 
 # Application definition
@@ -63,6 +63,7 @@ INSTALLED_APPS = [
     'contact',
     'wishlist',
     'inbox',
+    'accounts',
 
 
 ]
@@ -250,25 +251,21 @@ STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 
-if 'DEVELOPMENT' in os.environ:
-    EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-    DEFAULT_FROM_EMAIL =  'FreshVintage@example.com'
-else:
-    EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-    EMAIL_USE_TLS = True
-    EMAIL_PORT = 587
-    EMAIL_HOST = 'smtp.gmail.com'
-    EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
-    EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
-    DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
+# if 'DEVELOPMENT' in os.environ:
+#     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+#     DEFAULT_FROM_EMAIL =  'FreshVintage@example.com'
+# else:
+#     EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+#     EMAIL_USE_TLS = True
+#     EMAIL_PORT = 587
+#     EMAIL_HOST = 'smtp.gmail.com'
+#     EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
+#     EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
+#     DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
 
 
-MAILCHIMP_API_KEY = os.environ.get('MAILCHIMP_API_KEY', 'default_value_if_not_present')
-
-MAILCHIMP_LIST_ID = os.environ.get('MAILCHIMP_LIST_ID', 'default_value_if_not_present')
+# MAILCHIMP_API_KEY = os.environ.get('MAILCHIMP_API_KEY', 'default_value_if_not_present')
+# MAILCHIMP_LIST_ID = os.environ.get('MAILCHIMP_LIST_ID', 'default_value_if_not_present')
+# EMAIL_BACKEND = 'bag.utils.mailchimp_email_backend.MailchimpEmailBackend'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-
-
-EMAIL_BACKEND = 'bag.utils.mailchimp_email_backend.MailchimpEmailBackend'
-

@@ -46,7 +46,7 @@
                     {% endif %}
                     {% if request.user.is_superuser %}
                         <small class="ml-3">
-                            <a class="text-success"href="{% url 'edit_product' product.id %}">Edit</a> | 
+                            <a class="text-success" href="{% url 'edit_product' product.id %}">Edit</a> | 
                             <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
                         </small>
                     {% endif %}
@@ -116,58 +116,98 @@
                             {% endwith %}
                         </div>
                     </form>
-                    
+                   
                 </div>
             </div>
         </div>
 
-        <div class="contact-in row">
+        <div class="contact-in">
+            <div class="row review-heading w-100 pl-0 mt-md-3 mt-2 mb-md-3 mb-2 m-0">
+                <div class="col-md-6 col-12 mb-md-3 mb-2 pl-0">
+                    <h2 class="text-white text-center phone-size-heading">Reviews</h2>
+                </div>
+                {% if request.user.is_authenticated %}
+                <div class="col-6 d-md-block d-none mb-md-3 mb-2 pl-0">
+                    <h2 class="text-white text-center phone-size-heading pl-md-4 pl-2 ">Leave a review</h2>
+                </div>
+                {% endif %}
+            </div>
+            <div class="row w-100 m-0">
+                <div class="review-form col-md-6 col-12">
+                {% for review in product.reviews.all %}
+                    <div id="reviews" class="row text-left border border-white-rounded m-2 text-white reviewsborder">
+                        <div class="row w-100 mb-2" style="display: contents;">
+                            <div class="col-md-3 col-6 pl-10 mb-2">
+                                <strong>Rating:</strong>
+                            </div>
+                            <div class="col-md-9 col-6">
+                                {{ review.rating }}/6
+                            </div>
+                        </div>
+
+                        <div class="row w-100 mb-2" style="display: contents;">
+                            <div class="col-md-3 col-6 pl-10 mb-2">
+                                <strong>Date:</strong>
+                            </div>
+                            <div class="col-md-9 col-6">
+                                {{ review.create_at|date:"Y-m-d" }}
+                            </div>
+                        </div>
+
+                        <div class="row w-100 mb-2" style="display: contents;">
+                            <div class="col-md-3 col-6 pl-10 mb-2">
+                                <strong>Comment:</strong>
+                            </div>
+                            <div class="col-md-9 col-6">
+                                {{ review.content }}
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
             <div class="contact-map col-md-6 col-12" >
+                {% if request.user.is_authenticated %}
+                <div class="col-md-6 col-12 d-md-none d-block mb-md-3 mb-2 pl-0">
+                    <h2 class="text-white text-center phone-size-heading pl-md-4 pl-2 pt-4 pb-4">Leave a review</h2>
+                </div>
+                {% endif %}
                 <div class="w-full mt-6">
-                    <h2 class="text-white">Reviews</h2>
-            
                     {% if request.user.is_authenticated %}
                         <form method="post" action="{% url 'product_review' product.id  %}" class="mt-6 mb-6 p-6 bg-gray-100 rounded-xl text-bl">
                             {% csrf_token %}
             
-                            <div>
-                                <label class="text-white">Rating</label><br>
-                                <select name="rating">
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3" selected>3</option>
-                                    <option value="4">4</option>
-                                    <option value="5">5</option>
-                                    <option value="6">6</option>
-                                </select>
+                            
+                            <div class="row">
+                                <div class="col-4">
+                                    <label class="text-white">Rating:</label><br>
+                                </div>
+                                <div class="col-8">
+                                    <select name="rating">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3" selected>3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                    </select>
+                                </div>
                             </div>
             
-                            <div class="text-white">
-                                <label class="text-white">Comment</label><br>
-                                <textarea name="content"></textarea>
+                            <div class="text-white row">
+                                <label class="text-white col-md-3 col-4">Comment:</label><br>
+                                <div class="col-md-9 col-8">
+                                    <textarea name="content"></textarea>
+                                </div>
                             </div>
             
-                            <div class="text-white">
+                            <div class="text-white text-center mt-md-4 mt-2">
                                 <button type="submit">Submit</button>
                             </div>
                         </form>
+                        {% endif %}
                 </div>  
-        
-                    {% endif %}
             </div>
-            <div class="contact-form col-md-6 col-12">
-                {% for review in product.reviews.all %}
-                        <div id="reviews" class="px-4 py-6 bg-gray-100 rounded-xl mb-4 text-white">
-                            <strong>Rating:</strong> {{ review.rating }}/6<br>
-                            <strong>Date:</strong> {{ review.created_at|date:"Y-m-d" }}<br>
-                            <strong>Comment:</strong><br>
-                            {{ review.content }}
-                        </div>
-                    {% endfor %}
-               
-        
             </div>
-        
         </div>
     
             

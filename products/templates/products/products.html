@@ -58,16 +58,16 @@
                             <div class="card h-100 border-0">
                                 {% if product.image %}
                                 <a  href="{% url 'product_detail' product.id %}">
-                                    <img id="productimg" class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+                                    <img  class="card-img-top img-fluid productimg" src="{{ product.image.url }}" alt="{{ product.name }}">
                                 </a>
                                 {% else %}
                                 <a href="{% url 'product_detail' product.id %}">
                                     <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
                                 </a>
                                 {% endif %}
-                                <div id="productinfo" class="card-body pb-0">
-                                    <p id="products_name" class="mb-0">{{ product.name }}</p> 
-                                    <a onclick="myFunction()" id="p1" class="text-warning" href="{% url 'add_to_wishlist' product.id %}"><i class="far fa-star"></i></a>
+                                <div class="card-body pb-0 productinfo bg-dark">
+                                    <p class="mb-0 products_name">{{ product.name }}</p> 
+                                    <a onclick="myFunction()" class="text-warning" href="{% url 'add_to_wishlist' product.id %}"><i class="far fa-star"></i></a>
                                    
                                 </div>
                                 <div class="card-footer bg-dark pt-0 border-0 text-left">

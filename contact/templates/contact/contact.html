@@ -13,15 +13,15 @@
     <div class="contact-in row">
         <div class="contact-map col-md-6 col-12" >
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.520861849787!2d-6.265479523388204!3d53.351832674313066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e814ba42539%3A0x3eebd04f7462c124!2sParnell%20St%2C%20Dublin%2C%20Ireland!5e0!3m2!1sen!2ses!4v1690377464672!5m2!1sen!2ses"
-            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            style="width: inherit; height: -webkit-fill-available;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="contact-form col-md-6 col-12">
             <h1>Contact Us</h1>
             <form method="post" class="was-validated">
                 
                 {% csrf_token %}
-                <input type="text" placeholder="Name" name="name" class="contact-form-txt"/> 
-                <input type="text" placeholder="Email" name="email" class="contact-form-txt"/>
+                <input type="text" placeholder="Name" name="name" class="contact-form-txt"> 
+                <input type="text" placeholder="Email" name="email" class="contact-form-txt">
                 <textarea placeholder="Message" class="contact-form-textarea" name="message" required></textarea>
                 <button class="btn btn-primary">Send</button>
             </form>
@@ -29,7 +29,7 @@
         </div>
     
     </div>
-</div>
+
 {% endblock %}
 
 
