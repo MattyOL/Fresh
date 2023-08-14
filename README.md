@@ -182,29 +182,20 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
 
 
 #### Desktop
-[screenshot]()
-
-</details>
-
-<details>
-<summary>Click to View Contact-Page wireframes</summary>
-
-
-
-#### Desktop
-<img width="847" alt="Screen Shot 2023-08-12 at 11 53 07" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/d7ed60f4-116c-43e9-97b5-7eb2d246adde">
+<img width="835" alt="Screen Shot 2023-08-14 at 21 46 46" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/98e39766-0e55-40eb-b700-3d419f3f4b49">
 
 
 </details>
+
 
 <details>
 <summary>Click to View 404-Error-Page wireframes</summary>
 
 
-
 #### Desktop
+<img width="836" alt="Screen Shot 2023-08-14 at 21 40 18" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/fb11cbfe-a070-4060-855a-d420a7daee65">
 
-<img width="845" alt="Screen Shot 2023-08-12 at 11 39 35" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/a85990fe-fc9e-4fd3-8b64-4358a570562d">
+
 
 </details>
 
@@ -213,7 +204,31 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
 
 
 #### Desktop
-[screenshot]()
+<img width="838" alt="Screen Shot 2023-08-14 at 21 37 46" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/8a4bee46-83ac-4aef-a8cf-7652947d4d3c">
+
+
+</details>
+
+<details>
+<summary>Click to View Admin inbox wireframes</summary>
+
+
+#### Desktop
+<img width="844" alt="Screen Shot 2023-08-14 at 21 36 21" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/3510a17c-03d9-4d6d-8364-4b9c6f32cbbf">
+
+
+
+</details>
+
+<details>
+<summary>Click to View Review product wireframes</summary>
+
+
+#### Desktop
+<img width="844" alt="Screen Shot 2023-08-14 at 21 36 21" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/80e80354-c79c-43ed-b240-ae3137cc9b6f">
+
+
+
 
 </details>
 
