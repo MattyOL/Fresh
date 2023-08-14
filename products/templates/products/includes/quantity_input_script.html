@@ -1,4 +1,5 @@
 <script type="text/javascript">
+    var counter = 0;
 
     // Disable +/- buttons outside 1-99 range
     function handleEnableDisable(itemId) {
@@ -41,4 +42,45 @@
        var itemId = $(this).data('item_id');
        handleEnableDisable(itemId);
     });
+
+    // Edit Review
+    function EditReviewUnlockFields(rrr)
+    {
+        counter++;
+        console.log(rrr)
+        var element = document.getElementById(rrr);
+        console.log(element)
+        var reviewUpdateElements = element.getElementsByClassName("update_review_rating");
+        var reviewViewElements = document.getElementsByClassName("view_review_rating");
+        console.log(reviewViewElements.length);
+
+        if (counter % 2 === 1) {
+            for (var i = 0; i < reviewViewElements.length; i++) {
+                reviewUpdateElements[i].classList.add("d-flex");
+                reviewUpdateElements[i].classList.remove("d-none");   
+            }
+
+            for (var i = 0; i < reviewViewElements.length; i++) 
+            {
+                console.log(reviewViewElements[i]);
+                reviewViewElements[i].classList.add("d-none");
+                reviewViewElements[i].classList.remove("d-flex");
+            }
+        }
+        else {
+            for (var i = 0; i < reviewViewElements.length; i++) {
+                reviewUpdateElements[i].classList.add("d-none");
+                reviewUpdateElements[i].classList.remove("d-flex");
+            }
+            
+            for (var i = 0; i < reviewViewElements.length; i++) 
+            {
+                console.log(reviewViewElements[i]);
+                reviewViewElements[i].classList.add("d-flex");
+                reviewViewElements[i].classList.remove("d-none");
+            }
+        }
+        console.log(counter);
+        // element.getElementById(someAttribute).classList.add("d-none");
+    }
 </script>

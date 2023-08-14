@@ -135,13 +135,50 @@
             <div class="row w-100 m-0">
                 <div class="review-form col-md-6 col-12">
                 {% for review in product.reviews.all %}
-                    <div id="reviews" class="row text-left border border-white-rounded m-2 text-white reviewsborder">
-                        <div class="row w-100 mb-2" style="display: contents;">
+                    
+                    <div class="reviews row text-left border border-white-rounded m-2 text-white reviewsborder">
+                        <div class="row w-100 p-0 m-0" id="{{review.id}}">
+                            <form class="col-1 p-0" method="POST" action="{% url 'delete_review' review_id=review.id product_id=product.id  %}">
+                                {% csrf_token %}
+                                <button type="submit" class="text-center text-danger rounded-pill">
+                                    <i class="fas fa-trash-alt"></i>
+                                </button>
+                            </form>
+                            <div class="col-1 p-0">
+                                <button class="reviewIdDiv text-primary rounded-pill onclick="EditReviewUnlockFields('{{review.id}}')" data-review-id="{{review.id}}">
+                                    <i class="fas fa-pencil-alt"></i>
+                                </button>
+                            </div>
+                            <div class="col-4 p-0"></div>
+                            <form class="col-6 text-center" method="POST" class="row w-100" action="{% url 'update_review' review_id=review.id product_id=product.id  %}">
+                                {% csrf_token %}
+                                <button type="submit" class="text-center text-success rounded-pill">
+                                    <i class="fas fa-pencil-alt"></i> Submit Update
+                                </button>
+
+                                <div class="update_review_rating row d-none w-100 pt-4">
+                                    <div class="col-8 p-0">
+                                        <label class="text-white">Change Rating:</label><br>
+                                    </div>
+                                    <div class="col-4 text-center">
+                                        <select name="rating">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3" selected>3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="row w-100 view_review_rating pl-3 pt-2" id="view_review_rating">
                             <div class="col-md-3 col-6 pl-10 mb-2">
                                 <strong>Rating:</strong>
                             </div>
                             <div class="col-md-9 col-6">
-                                {{ review.rating }}/6
+                                <p id="rating-static">{{ review.rating }}/6</p>
                             </div>
                         </div>
 
@@ -201,7 +238,7 @@
                             </div>
             
                             <div class="text-white text-center mt-md-4 mt-2">
-                                <button type="submit">Submit</button>
+                                <button type="submit text-success rounded-pill" class="text-success rounded-pill">Submit</button>
                             </div>
                         </form>
                         {% endif %}

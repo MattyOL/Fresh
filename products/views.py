@@ -7,6 +7,7 @@ from .models import Product, Category, Review
 from .forms import ProductForm
 from wishlist.models import Wishlist
 import datetime
+from django.views.decorators.csrf import csrf_protect
 
 
 def all_products(request):
@@ -155,8 +156,30 @@ def product_review(request, product_id):
 
         return redirect(reverse('product_detail', args=[product.id]))
 
-    
 
+@login_required
+@csrf_protect
+def delete_review(request, review_id, product_id):
+
+    if request.method == 'POST':
+        review = get_object_or_404(Review, pk=review_id)
+        review.delete()
+        messages.success(request, 'Review deleted!')
+
+    return redirect(reverse('product_detail', args=[product_id]))
+
+@login_required
+@csrf_protect
+def update_review(request, review_id, product_id):
+
+    if request.method == 'POST':
+        review = get_object_or_404(Review, pk=review_id)
+        rating = request.POST.get('rating', 3)
+        review.rating = rating
+        review.save()
+        messages.success(request, 'Review updated!')
+
+    return redirect(reverse('product_detail', args=[product_id]))
 
 
 def handler404(request, exception):

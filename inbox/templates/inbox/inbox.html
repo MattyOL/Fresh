@@ -28,31 +28,28 @@
         </div>
     </div>
     <div class="container-sm">
-               
-        
-            
-        <div class="container">
-            <div class="contact-map col-md-6 col-12">
-                <ul class="text-bl">
-                    {% regroup contacts by email as contacts_group %}
-                    {% for group in contacts_group %}
-                    <li class="admincontainer">
-                        <strong>Email:</strong> {{ group.grouper }}<br>
-                        <ul>
-                            <br>
-                        {% for contact in group.list %}
-                            <li><strong>Message:</strong> {{ contact.message }}</li>
-                            <br>
-                        {% endfor %}
-                        </ul>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-        </div>
 
-
-    
+        <table class="table text-bl">
+            <thead>
+                {% regroup contacts by email as contacts_group %}
+                {% for group in contacts_group %}
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col"><strong>Email:</strong></th>
+                <th scope="col">Message:</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for contact in group.list %}
+                <tr>
+                  <th scope="row">1</th>
+                  <td>{{ group.grouper}}</td>
+                  <td>{{ contact.message }}</td>
+                  {% endfor %}
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
 
 </div>
 
