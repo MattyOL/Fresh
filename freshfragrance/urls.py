@@ -19,7 +19,6 @@ urlpatterns = [
     path('blog/', include('blog.urls')),
     path('inbox/', include('inbox.urls')),
     path('error404_page/', error404_page, name='404'),
-    # path('accounts/', include('accounts.urls')),
     # path('', include(api_urls)),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
