@@ -15,10 +15,13 @@ The fresh|Vintage website operates as an eco-conscious platform, dedicated to pr
 
 
 
-# Flowchart Structure Mind map 
+# Flowchart functionality 
 
 <img width="960" alt="Screen Shot 2023-08-11 at 16 02 58" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/4138c4b6-a7dc-4306-a5cf-9c1b964363e5">
 
+# ERD modules map 
+
+<img width="817" alt="Screen Shot 2023-08-15 at 12 18 07" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/cc056dab-a05a-4229-aa70-0636ffe8c0bc">
 
 
 # UX
