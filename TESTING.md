@@ -19,10 +19,8 @@ In order to properly validate my HTML pages with Jinja syntax for authenticated 
 | Product Detail | <img width="1413" alt="Screen Shot 2023-08-13 at 11 24 52" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/7cf4a69d-0257-4cde-a21d-1d971e994598"> | Pass: No Errors |
 | Contact-us | <img width="1398" alt="Screen Shot 2023-08-13 at 13 11 01" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/f7b807bc-1fec-4f99-877a-fee8c274a1b8">| Pass: No Errors |
 | Blog | <img width="1354" alt="Screen Shot 2023-08-12 at 15 10 33" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/e3b17ed4-e28a-4586-82b1-00895b5e387d"> | Pass: No Errors |
-| Blog Post | | Pass: No Errors |
-| WishList |  | Pass: No Errors |
-| product Mange | ![Uploading Screen Shot 2023-08-13 at 11.58.24.png…]() | Pass: No Errors |
-|Inbox |  | Pass: No Errors |
+|Inbox | <img width="1351" alt="Screen Shot 2023-08-15 at 08 56 10" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/f5a47c62-1161-4d47-a372-a27ec5254ec8">
+ | Pass: No Errors |
 | Checkout |  <img width="1368" alt="Screen Shot 2023-08-13 at 10 49 06" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/92a1560e-456b-4336-9ed1-8c6f3cffbbde">| Pass: No Major Errors |
 | My profile | <img width="1403" alt="Screen Shot 2023-08-13 at 10 50 22" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/d9f509f3-95b1-434c-aa6f-ae485956d013"> | Pass: No Errors |
 | Bag | <img width="1354" alt="Screen Shot 2023-08-12 at 15 10 33" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/1f2ce860-0ecd-4917-ae16-04bffd5c1d27"> | Pass: No Errors |
@@ -220,6 +218,7 @@ I used linter pylint to test the python code.
 
 I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
 
+ * During my project, I unfortunately ran out of time to dedicate towards addressing these issues. However, looking ahead, I plan to allocate more time in the future to revisit and rectify the problems affecting responsiveness. My aim is to implement the necessary edits that will significantly improve the overall responsiveness of the website, as evidenced by Lighthouse testing during the inspection process.
 
 ### Home page
 <details>
@@ -323,9 +322,10 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 </details>
 
+### Log out page
+
 <details>
 
-### Log out page
 
 
 #### Mobile
@@ -354,8 +354,7 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 <details>
 
 
-#### Mobile
-
+<img width="601" alt="Screen Shot 2023-08-15 at 08 23 27" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/3daea5a3-45e1-4800-be0d-97a381813606">
 #### Desktop
 
 
@@ -364,11 +363,15 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 ### Clothing
 
 <details>
+ 
 
 
 #### Mobile
+<img width="607" alt="Screen Shot 2023-08-15 at 08 27 46" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/fc912f2f-a834-40f2-8c9f-e76e91bc4cb3">
+
 
 #### Desktop
+<img width="615" alt="Screen Shot 2023-08-15 at 08 27 15" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/1d9e559c-624e-4931-afdf-43deb92272a8">
 
 
 </details>
@@ -376,23 +379,26 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 ### Homewear
 
 <details>
+ 
 
+<img width="582" alt="Screen Shot 2023-08-15 at 08 29 54" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/045dce7d-dcc3-4a3d-9655-51d702e5a202">
 
-#### Mobile
 
 #### Desktop
+<img width="580" alt="Screen Shot 2023-08-15 at 08 29 27" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/955893ab-68c8-445d-8aef-b0bd8e267d64">
 
 
 </details>
 
 ### Special Offer's
-
 <details>
+ 
 
 
-#### Mobile
+<img width="489" alt="Screen Shot 2023-08-15 at 08 34 24" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/5ce832c9-a240-436e-be1e-34b58607a6b0">
 
 #### Desktop
+<img width="554" alt="Screen Shot 2023-08-15 at 08 33 57" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/fd3ded0b-9cdc-4c39-8df7-8c6c354fa317">
 
 
 </details>
@@ -400,11 +406,11 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 ### Wishlist
 
 <details>
-
-
-#### Mobile
+ 
 
 #### Desktop
+
+<img width="542" alt="Screen Shot 2023-08-15 at 08 41 21" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/23892e2e-bdb9-4e66-bda9-46387ea97270">
 
 
 </details>
@@ -414,24 +420,16 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 <details>
 
 
+
 #### Mobile
+<img width="596" alt="Screen Shot 2023-08-15 at 08 43 52" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/3cdfa481-ba77-4f14-9754-40cb5db7ed71">
 
 #### Desktop
+<img width="550" alt="Screen Shot 2023-08-15 at 08 43 25" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/f57aafa1-576a-41e0-a356-2f4113b5b677">
 
 
 </details>
 
-### SHopping bag (items in bag)
-
-<details>
-
-
-#### Mobile
-
-#### Desktop
-
-
-</details>
 
 ### Blog
 
@@ -439,18 +437,20 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 
 #### Mobile
+<img width="560" alt="Screen Shot 2023-08-15 at 08 45 50" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/cedb307a-0671-4dbf-b7a1-86309af6e0dd">
 
 #### Desktop
+<img width="593" alt="Screen Shot 2023-08-15 at 08 45 23" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/5c0fd3b8-d33d-4cfc-8b81-0df99b8697b4">
 
 
 </details>
 
+### Admin Inbox
 <details>
 
 
-#### Mobile
-
 #### Desktop
+<img width="548" alt="Screen Shot 2023-08-15 at 08 52 36" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/182e3aad-da01-4ecf-81eb-b96e4817a53b">
 
 
 </details>
