@@ -23,8 +23,8 @@ body {
     transition: .3s;
 }
 
-#hover-effect-nav li {
-
+#hover-effect-nav li:hover {
+    
     transition: font-size 0.3s ease;
 }
 
@@ -123,9 +123,7 @@ b, strong {
 .text-black {
     color: white !important;
 }
-.text-white {
-    color:#000;
-}
+
 
 .black {
     color: black;
@@ -370,10 +368,6 @@ h6 strong {
     flex: 50%;
 }
 
-.review-form, .contact-map  {
-    padding-left: 5rem;
-}
-
 
 .contact-form h1 {
     margin-bottom: 10px;
@@ -431,9 +425,7 @@ h6 strong {
 
 }
 
-#blog-link {
-    padding-left: 45px;
-}
+
 
 .newslettertitle {
     font-size: 20px;
@@ -793,6 +785,10 @@ h6 strong {
 
 .reviews {
     color: black;
+}
+
+.navbar-toggler {
+    background-color: white;
 }
 
 

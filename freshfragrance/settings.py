@@ -14,8 +14,6 @@ import dj_database_url
 
 from pathlib import Path
 
-
-
 if os.path.exists("env.py"):
     import env 
 
@@ -32,8 +30,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
-# SECURITY WARNING: don't run with debug turned on in production!  #'DEVELOPMENT' in os.environ
-DEBUG = True
+# SECURITY WARNING: don't run with debug turned on in production!  #
+DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['8015-mattyol-fresh-wox1tw2jfil.ws-eu103.gitpod.io', 'localhost', 'fresh-p5-3dd3ff854c84.herokuapp.com' ]
 
@@ -48,6 +46,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
+    'dj_rest_auth',
+    'rest_framework',
+    'rest_framework.authtoken',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
@@ -63,9 +64,7 @@ INSTALLED_APPS = [
     'contact',
     'wishlist',
     'inbox',
-    'accounts',
-
-
+    # 'accounts',
 ]
 
 SITE_ID=1
@@ -81,15 +80,12 @@ MIDDLEWARE = [
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.clickjacking.XFrameOptionsMiddleware'
 ]
 
 ROOT_URLCONF = 'freshfragrance.urls'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
-
-ACCOUNT_EMAIL_VERIFICATION = 'none'
-
 
 TEMPLATES = [
     {
@@ -129,17 +125,15 @@ AUTHENTICATION_BACKENDS = [
 
 SITE_ID = 1
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
+ACCOUNT_AUTHENTICATION_METHOD = 'email'
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True
 ACCOUNT_USERNAME_MIN_LENGTH = 4
+ACCOUNT_UNIQUE_EMAIL = True
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
-
-
 
 WSGI_APPLICATION = 'freshfragrance.wsgi.application'
 
@@ -157,12 +151,6 @@ else:
            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
   }
-
-#DATABASES = {
-#    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
-#}
-    
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
@@ -208,6 +196,8 @@ if DEBUG:
 else:
     STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
+
+
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
@@ -251,21 +241,20 @@ STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 
-# if 'DEVELOPMENT' in os.environ:
-#     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-#     DEFAULT_FROM_EMAIL =  'FreshVintage@example.com'
-# else:
-#     EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-#     EMAIL_USE_TLS = True
-#     EMAIL_PORT = 587
-#     EMAIL_HOST = 'smtp.gmail.com'
-#     EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
-#     EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
-#     DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
+if DEBUG:
+    EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+    DEFAULT_FROM_EMAIL =  'FreshVintage@example.com'
+else:
+    EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+    EMAIL_USE_TLS = True
+    EMAIL_PORT = 587
+    EMAIL_HOST = 'smtp.gmail.com'
+    EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
+    EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
+    DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
 
 
 # MAILCHIMP_API_KEY = os.environ.get('MAILCHIMP_API_KEY', 'default_value_if_not_present')
 # MAILCHIMP_LIST_ID = os.environ.get('MAILCHIMP_LIST_ID', 'default_value_if_not_present')
 # EMAIL_BACKEND = 'bag.utils.mailchimp_email_backend.MailchimpEmailBackend'
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
