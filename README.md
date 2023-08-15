@@ -259,7 +259,6 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
    
 <summary>Click to View Main Nav Menu </summary>
 
-#### Mobile
 
 
 #### Desktop
@@ -271,8 +270,6 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
 
  
 <summary>Click to View Nav Bar headings with items that link to products categorys</summary>
-
-#### Mobile
 
 
 #### Desktop
@@ -286,7 +283,6 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
  
 <summary>Click to View ALl Product's </summary>
 
-#### Mobile
 
 
 #### Desktop
@@ -300,7 +296,6 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
  
 <summary>Click to View Clothing </summary>
 
-#### Mobile
 
 
 #### Desktop
@@ -314,7 +309,6 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
  
 <summary>Click to View Homewear </summary>
 
-#### Mobile
 
 
 #### Desktop
@@ -330,7 +324,6 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
  
 <summary>Click to View Special Offer's </summary>
 
-#### Mobile
 
 
 #### Desktop
@@ -344,7 +337,6 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
  
 <summary>Click to View Blog </summary>
 
-#### Mobile
 
 
 #### Desktop
@@ -359,7 +351,6 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
 In instances where the user clicks the search button without inputting any text, an error message is displayed.
 <summary>Click to View  Search-Bar</summary>
 
-#### Mobile
 
 
 #### Desktop
@@ -373,7 +364,6 @@ In instances where the user clicks the search button without inputting any text,
  
 <summary>Click to View  All Products page</summary>
 
-#### Mobile
 
 
 #### Desktop
@@ -388,7 +378,6 @@ In instances where the user clicks the search button without inputting any text,
  * Every individual product is presented within its own card, featuring essential details such as the product's image, name, rating, favorited status, and price.
 <summary>Click to View Product Card</summary>
 
-#### Mobile
 
 #### Desktop
 <img width="287" alt="Screen Shot 2023-08-08 at 11 35 27" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/018ea919-503f-468c-b048-c9b6a699bbba">
@@ -401,7 +390,6 @@ In instances where the user clicks the search button without inputting any text,
  
 <summary>Click to View Sorting Products </summary>
 
-#### Mobile
 
 #### Desktop
 <img width="292" alt="Screen Shot 2023-08-08 at 11 41 47" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/92017f08-849e-418f-8cc4-9dcea9ff1b61">
@@ -417,7 +405,6 @@ In instances where the user clicks the search button without inputting any text,
  
 <summary>Click to Blog page </summary>
 
-#### Mobile
 
 #### Desktop
 <img width="1424" alt="Screen Shot 2023-08-08 at 12 30 03" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/8925f97c-32df-422a-a0c6-9493735af75c">
@@ -437,7 +424,6 @@ In instances where the user clicks the search button without inputting any text,
  
 <summary>Click to My profile </summary>
 
-#### Mobile
 
 #### Desktop
 
@@ -453,7 +439,6 @@ In instances where the user clicks the search button without inputting any text,
  
 <summary>Click to My wishlist </summary>
 
-#### Mobile
 
 #### Desktop
 <img width="299" alt="Screen Shot 2023-08-08 at 13 13 27" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/5d00c8e4-c0ba-4368-aabb-582feed5e5c4">
@@ -465,7 +450,6 @@ In instances where the user clicks the search button without inputting any text,
  
 <summary>Click to Star icon  </summary>
 
-#### Desktop
 
 <img width="57" alt="Screen Shot 2023-08-08 at 13 13 42" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/8791c168-487d-407a-8509-7e3bfee155e0">
 
@@ -477,7 +461,6 @@ In instances where the user clicks the search button without inputting any text,
  
 <summary>Click to WishList Page </summary>
 
-#### Mobile
 
 #### Desktop
 <img width="1195" alt="Screen Shot 2023-08-08 at 13 18 56" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/538b3ffe-9982-44d8-a982-3b3871190059">
@@ -490,7 +473,6 @@ In instances where the user clicks the search button without inputting any text,
  
 <summary>Click to and return /add </summary>
 
-#### Mobile
 
 #### Desktop
 <img width="366" alt="Screen Shot 2023-08-08 at 13 19 03" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/0142fa5d-9ec1-460d-9c22-63a07ae8aa73">
@@ -501,7 +483,6 @@ In instances where the user clicks the search button without inputting any text,
  
 <summary>Click to  Bag</summary>
 
-#### Mobile
 
 #### Desktop
 
@@ -522,7 +503,6 @@ In instances where the user clicks the search button without inputting any text,
  <details>
 <summary>Click to Checkout form </summary>
 
-#### Mobile
 
 #### Desktop
 * This is the section where users input their delivery details and provide their credit card information to complete the transaction.
@@ -539,11 +519,42 @@ In instances where the user clicks the search button without inputting any text,
  <details>
 <summary>Click to  Contact-Us</summary>
 
-#### Mobile
 
 #### Desktop
 * This form serves as a means for users to initiate contact with us, allowing them to inquire about any matters concerning their purchases, upcoming events, or even submit job applications
 <img width="1402" alt="Screen Shot 2023-08-08 at 13 46 26" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/2d56518e-56d0-452d-a70c-bc961a431124">
+
+</details>
+<details>
+<summary>Click to Admin Inbox   </summary>
+* The administrative authority oversees the connection between the Admin inbox and the contact form.
+
+#### Desktop
+<img width="1398" alt="Screen Shot 2023-08-14 at 22 11 53" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/af071552-2a36-489b-a40c-db5b38a41db5">
+
+
+</details>
+<details>
+<summary>Review </summary>
+
+* The product review can be found on the product detail page, and it's accessible for user input only when they are logged in.
+
+
+#### Desktop
+<img width="1165" alt="Screen Shot 2023-08-14 at 22 00 40" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/5d9d119e-867b-4f60-9147-90873168944c">
+
+
+</details>
+
+<details>
+<summary>Review (CRUD)</summary>
+
+* Once the user is logged in, they have the ability to submit their review. They also retain the option to delete or modify it at any point, thus enjoying comprehensive CRUD (Create, Read, Update, Delete) functionality.
+
+
+#### Desktop
+<img width="1217" alt="Screen Shot 2023-08-14 at 22 00 32" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/8dcf29ae-6672-4622-bbcf-18f834f10591">
+
 
 </details>
 
@@ -560,57 +571,6 @@ In instances where the user clicks the search button without inputting any text,
 <img width="1422" alt="Screen Shot 2023-08-08 at 12 22 12" src="https://github.com/MattyOL/Fresh-Vintage-P5-/assets/111317260/faa8adf6-18ec-4921-a86b-459b1c9a2767">
 
 </details>
-
-<details>
-<summary>Click to  </summary>
-
-#### Mobile
-
-#### Desktop
-
-
-</details>
-
-<details>
-<summary>Click to  </summary>
-
-#### Mobile
-
-#### Desktop
-
-
-</details>
-
-<details>
-<summary>Click to  </summary>
-
-#### Mobile
-
-#### Desktop
-
-
-</details>
-
-<details>
-<summary>Click to  </summary>
-
-#### Mobile
-
-#### Desktop
-
-
-</details>
-
-<details>
-<summary>Click to  </summary>
-
-#### Mobile
-
-#### Desktop
-
-
-</details>
-
 
 
 
@@ -630,8 +590,10 @@ In instances where the user clicks the search button without inputting any text,
 
 * Upon reassessing my time allocation, I realized that resolving these challenges was consuming a significant portion of my schedule. Consequently, I opted to explore alternative feature ideas that could be implemented more efficiently. I've compiled screenshots of the code I attempted to incorporate, which you can find below for reference.
 
+* After recognizing that I was dedicating excessive time to the task and reevaluating my ideas, I reached the conclusion that it's more beneficial to explore new avenues instead of delving deep into intricate coding, which consumes both my time and attention, especially when I could accomplish the same objectives more efficiently. Hence, I took my ideas and devised a more improved plan to meet my deadline.
+
 <details>
-<summary>Code Snippit wireframes</summary>
+<summary>Code Snippit </summary>
 
 
 #### Code
