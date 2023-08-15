@@ -46,9 +46,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
-    # 'dj_rest_auth',
-    # 'rest_framework',
-    # 'rest_framework.authtoken',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
@@ -64,7 +61,6 @@ INSTALLED_APPS = [
     'contact',
     'wishlist',
     'inbox',
-    # 'accounts',
 ]
 
 SITE_ID=1
