@@ -3,7 +3,7 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 from .views import handler404, error404_page
-# from .api.urls import urlpatterns as api_urls
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -19,7 +19,6 @@ urlpatterns = [
     path('blog/', include('blog.urls')),
     path('inbox/', include('inbox.urls')),
     path('error404_page/', error404_page, name='404'),
-    # path('', include(api_urls)),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 handler404 = 'freshfragrance.views.handler404'
